@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <input>
+    <net-file        value="H:\Desktop\Projects\network-plus\pipeline_output\sumo\newcastle_stjames-full.net.xml"/>
+    <route-files     value="vtypes.xml,routes.xml"/>
+  </input>
+  <time>
+    <begin           value="0"/>
+    <step-length     value="1"/>
+  </time>
+  <output>
+    <tripinfo-output value="tripinfo.xml"/>
+  </output>
+</configuration>

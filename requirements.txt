@@ -1,0 +1,45 @@
+# ======================================================================
+# Newcastle CCTV — Vehicle Detection → SUMO Pipeline
+# Requirements
+# ======================================================================
+# Install everything with:
+#     pip install -r requirements.txt
+#
+# SUMO must be installed separately (see notes at bottom of this file)
+# ======================================================================
+
+
+# ── Core scientific stack ──────────────────────────────────────────
+numpy>=1.24.0
+scipy>=1.11.0
+pandas>=2.0.0
+
+# ── Computer vision ────────────────────────────────────────────────
+opencv-python-headless>=4.8.0   # image reading/writing (headless = no GUI dep)
+Pillow>=10.0.0                  # image utilities used by ultralytics
+
+# ── YOLOv8 vehicle detection ───────────────────────────────────────
+ultralytics>=8.2.0              # includes YOLOv8; auto-downloads model weights
+
+# ── Deep learning backend (YOLOv8 requirement) ─────────────────────
+torch>=2.0.0                    # PyTorch CPU build
+torchvision>=0.15.0             # paired with torch
+
+# NOTE: For GPU (NVIDIA CUDA) support, replace the two lines above with:
+#   torch>=2.0.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+#   torchvision>=0.15.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
+
+# ── SUMO Python bindings (traci + libsumo) ─────────────────────────
+traci>=1.20.0                   # TraCI API — control SUMO from Python
+sumolib>=1.20.0                 # read/write SUMO network & route files
+libsumo>=1.20.0                 # faster alternative to traci (optional)
+
+# ── Progress / CLI ─────────────────────────────────────────────────
+tqdm>=4.66.0                    # progress bars
+
+# ── XML / data handling (stdlib supplements) ───────────────────────
+lxml>=4.9.0                     # faster XML parsing for large SUMO files
+
+# ── Visualisation (optional but useful) ───────────────────────────
+matplotlib>=3.7.0               # plot vehicle counts over time
+seaborn>=0.12.0                 # nicer statistical plots

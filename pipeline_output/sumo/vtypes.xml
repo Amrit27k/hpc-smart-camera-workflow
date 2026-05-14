@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<routes>
+  <vType id="car" vClass="passenger" color="255,165,0" />
+  <vType id="bus" vClass="bus" color="0,0,255" />
+  <vType id="truck" vClass="truck" color="255,0,0" />
+  <vType id="motorcycle" vClass="motorcycle" color="0,200,0" />
+</routes>
