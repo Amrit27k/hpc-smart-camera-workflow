@@ -1,3 +1,5 @@
+# hpc-smart-camera-workflow
+
 # Single-Node Machine Learning on Slurm
 
 This repository contains a template for running a simple Machine Learning model (Random Forest) using a single-node Slurm configuration.
