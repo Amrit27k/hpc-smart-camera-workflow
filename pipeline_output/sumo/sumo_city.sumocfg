@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <input>
+    <net-file         value="newcastle_stjames-full.net.xml"/>
+    <route-files      value="routes_city.xml"/>
+    <additional-files value="edgedata_cfg.add.xml"/>
+  </input>
+
+  <time>
+    <begin            value="0"/>
+    <end              value="86400"/>
+    <step-length      value="1"/>
+  </time>
+
+  <mesoscopic>
+    <mesosim          value="true"/>
+    <meso-edgelength  value="150"/>
+  </mesoscopic>
+
+  <output>
+    <tripinfo-output  value="tripinfo.xml"/>
+  </output>
+
+  <report>
+    <no-step-log      value="true"/>
+    <verbose          value="true"/>
+  </report>
+
+</configuration>
