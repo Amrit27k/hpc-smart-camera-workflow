@@ -1,4 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-05-17T20:07:24.752446+00:00 by Eclipse SUMO duarouter 1.26.0
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="newcastle_stjames-full.net.xml"/>
+        <route-files value="trips_city.xml"/>
+    </input>
+
+    <output>
+        <output-file value="routes_city.xml"/>
+    </output>
+
+    <processing>
+        <weights.priority-factor value="0"/>
+    </processing>
+
+    <report>
+        <log value="duarouter.log"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <vType id="truck" length="9.00" minGap="3.50" maxSpeed="11.11" speedFactor="normc(1.00,0.05,0.20,2.00)" vClass="truck" color="red" accel="1.0" decel="3.0"/>
     <vehicle id="v0" type="truck" depart="309.00">
