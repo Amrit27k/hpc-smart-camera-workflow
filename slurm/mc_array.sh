@@ -1,71 +1,66 @@
 #!/bin/bash
-#SBATCH --job-name=mc_predict
-#SBATCH --partition=cclake          # adjust to your Dawn partition
+#SBATCH -J mc_predict
+#SBATCH -A AIRR-P89-DAWN-GPU
+#SBATCH -p pvc9
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
-#SBATCH --mem=4G
-#SBATCH --time=00:30:00             # 30 min per rep is generous for MESO on this network
-#SBATCH --array=1-8                 # one task per seed (8 reps total); change to 1-10 for 10 reps
-#SBATCH --output=logs/mc_%A_%a.out  # %A = job array id, %a = task id (= seed)
-#SBATCH --error=logs/mc_%A_%a.err
-
-# Run from the project root on Dawn:
-#   mkdir -p logs
-#   sbatch slurm/mc_array.sh
-#
-# SLURM_ARRAY_TASK_ID maps 1:1 to --seed, so tasks run fully in parallel.
-# Aggregation (mc_aggregate.sh) runs after all array tasks finish.
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=8G
+#SBATCH --time=00:30:00
+#SBATCH --array=1-2
+#SBATCH --output=/home/%u/Smart-Transport-SUMO/logs/mc_%A_%a.out
+#SBATCH --error=/home/%u/Smart-Transport-SUMO/logs/mc_%A_%a.err
 
 set -euo pipefail
 
-# ── CONFIGURE THESE TWO PATHS FOR YOUR DAWN ACCOUNT ─────────────────────────
-PROJECT_ROOT="$HOME/network-plus"
-SIF="/path/to/sumo_latest.sif"        # full path to your .sif file on Dawn
-# ─────────────────────────────────────────────────────────────────────────────
+# ── paths ─────────────────────────────────────────────────────────────────────
+# PROJECT_ROOT = $HOME/Smart-Transport-SUMO
+# Bind: -B $PROJECT_ROOT:/sumo  →  container sees /sumo/ as project root
+# sumo files are in $PROJECT_ROOT/sumo/ → /sumo/sumo/ inside container
+PROJECT_ROOT="$HOME/Smart-Transport-SUMO"
+SUMO_SIF="$PROJECT_ROOT/sumo_latest.sif"
 
-SUMO_DIR="$PROJECT_ROOT/pipeline_output/sumo"
-SEED=$SLURM_ARRAY_TASK_ID            # seed = task id (1, 2, ... 8)
-CHECKPOINT=36000                      # hour 10  (seconds)
-END_TIME=43200                        # hour 12  (seconds)
-INTERVAL=900                          # 15-min edgeData aggregation
-RUN_DIR="$PROJECT_ROOT/mc_results/run_$(printf '%04d' $SEED)"
+SEED=$SLURM_ARRAY_TASK_ID
+SEED_STR=$(printf '%04d' "$SEED")
+CHECKPOINT=36000                             # hour 10
+END_TIME=43200                               # hour 12
+INTERVAL=900                                 # 15-min edgeData
 
+# host-side paths
+RUN_DIR="$PROJECT_ROOT/mc_results/run_${SEED_STR}"
+
+# container-side paths (/sumo = $PROJECT_ROOT)
+EDGEDATA_FILE_CTR="/sumo/mc_results/run_${SEED_STR}/edgedata_mc.xml"
+ADD_FILE_CTR="/sumo/mc_results/run_${SEED_STR}/mc_edgedata_cfg.add.xml"
+SUMO_LOG_CTR="/sumo/mc_results/run_${SEED_STR}/sumo.log"
+
+# ── setup ─────────────────────────────────────────────────────────────────────
 module purge
-module load python/3.11               # adjust to Dawn's python module name
+module load rhel9/default-dawn
 
 mkdir -p "$RUN_DIR" "$PROJECT_ROOT/logs"
 
-# ── write per-run edgeData additional file ────────────────────────────────────
-# Paths written into the XML must be the container-internal /data/... paths,
-# because SUMO runs inside the container and sees /data as its root.
-EDGEDATA_FILE_HOST="$RUN_DIR/edgedata_mc.xml"
-EDGEDATA_FILE_CTR="/data/mc_results/run_$(printf '%04d' $SEED)/edgedata_mc.xml"
-ADD_FILE_HOST="$RUN_DIR/mc_edgedata_cfg.add.xml"
-ADD_FILE_CTR="/data/mc_results/run_$(printf '%04d' $SEED)/mc_edgedata_cfg.add.xml"
-
-cat > "$ADD_FILE_HOST" <<EOF
+# ── write edgeData additional file ────────────────────────────────────────────
+cat > "$RUN_DIR/mc_edgedata_cfg.add.xml" << XMLEOF
 <?xml version="1.0" encoding="UTF-8"?>
 <additional>
   <edgeData id="mc_edge"
-            begin="$CHECKPOINT"
-            end="$END_TIME"
-            freq="$INTERVAL"
-            file="$EDGEDATA_FILE_CTR"
+            begin="${CHECKPOINT}"
+            end="${END_TIME}"
+            freq="${INTERVAL}"
+            file="${EDGEDATA_FILE_CTR}"
             excludeEmpty="true"/>
 </additional>
-EOF
+XMLEOF
 
-# ── run SUMO-MESO via Apptainer for this seed ────────────────────────────────
-# -B binds $PROJECT_ROOT on the host to /data inside the container.
-# All file paths passed to sumo use the /data/... form.
+# ── run SUMO ──────────────────────────────────────────────────────────────────
 echo "[$SEED] Starting SUMO seed=$SEED  $(date)"
 
 apptainer exec \
-    -B "$PROJECT_ROOT":/data \
-    "$SIF" \
+    -B "$PROJECT_ROOT":/sumo \
+    "$SUMO_SIF" \
     sumo \
-        --configuration-file /data/pipeline_output/sumo/sumo_city.sumocfg \
+        --configuration-file /sumo/sumo/sumo_city.sumocfg \
         --begin              "$CHECKPOINT" \
         --end                "$END_TIME" \
         --seed               "$SEED" \
@@ -74,6 +69,6 @@ apptainer exec \
         --additional-files   "$ADD_FILE_CTR" \
         --no-step-log \
         --no-warnings \
-        --log                "$EDGEDATA_FILE_CTR".log
+        --log                "$SUMO_LOG_CTR"
 
-echo "[$SEED] SUMO done. edgeData: $EDGEDATA_FILE_HOST  $(date)"
+echo "[$SEED] SUMO done. edgeData: $EDGEDATA_FILE_CTR  $(date)"

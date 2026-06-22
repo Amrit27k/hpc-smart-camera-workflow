@@ -68,7 +68,7 @@ def file_hash(path: Path) -> str:
     return hashlib.md5(path.read_bytes()).hexdigest()
 
 
-def find_latest(folder: Path, pattern: str) -> Path | None:
+def find_latest(folder: Path, pattern: str):
     """Return the most-recently-modified file matching glob pattern, or None."""
     candidates = sorted(folder.glob(pattern), key=lambda p: p.stat().st_mtime, reverse=True)
     return candidates[0] if candidates else None
@@ -147,7 +147,7 @@ def merge_routes(nodes: dict) -> ET.Element:
         avoid collisions.  vehicle@route references are rewritten to match.
     """
     root = ET.Element("routes")
-    seen_vtypes: dict[str, dict] = {}   # id -> attrib dict
+    seen_vtypes = {}   # id -> attrib dict
     total_vehicles = 0
 
     for nid, info in nodes.items():
@@ -160,7 +160,7 @@ def merge_routes(nodes: dict) -> ET.Element:
             continue
 
         src_root = tree.getroot()
-        route_id_map: dict[str, str] = {}   # old route id -> new prefixed id
+        route_id_map = {}   # old route id -> new prefixed id
 
         # ── vTypes ──
         for vt in src_root.findall("vType"):
@@ -198,7 +198,7 @@ def merge_routes(nodes: dict) -> ET.Element:
 
 # ── merge vtypes (canonical copy) ────────────────────────────────────────────
 
-def pick_canonical_vtypes(nodes: dict) -> Path | None:
+def pick_canonical_vtypes(nodes: dict):
     """Return the first vtypes file found; warn if hashes differ."""
     files = [n["vtypes"] for n in nodes.values() if n.get("vtypes")]
     if not files:

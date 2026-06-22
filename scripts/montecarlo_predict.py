@@ -163,7 +163,8 @@ def run_sumo(sumo_bin: str, cfg: Path, seed: int,
     try:
         result = subprocess.run(
             cmd,
-            capture_output=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
             text=True,
             cwd=str(cfg.parent),   # relative paths in cfg resolve from here
             timeout=600,
@@ -219,7 +220,7 @@ def parse_edgedata(path: Path) -> dict:
 
 # ── aggregate across runs ─────────────────────────────────────────────────────
 
-def aggregate(all_runs: list[dict]) -> dict:
+def aggregate(all_runs: list) -> dict:
     """
     all_runs: list of dicts from parse_edgedata(), one per rep.
 
@@ -260,9 +261,9 @@ def aggregate(all_runs: list[dict]) -> dict:
 
 # ── pick top edges by mean flow ───────────────────────────────────────────────
 
-def top_edges_by_density(aggregated: dict, n: int = 10) -> list[str]:
+def top_edges_by_density(aggregated: dict, n: int = 10) -> list:
     """Return top-n edge ids ranked by mean density across all timesteps."""
-    edge_density: dict[str, list] = defaultdict(list)
+    edge_density = defaultdict(list)
     for (_, _, eid), vals in aggregated.items():
         edge_density[eid].append(vals["density_mean"])
     ranked = sorted(edge_density, key=lambda e: mean(edge_density[e]), reverse=True)
@@ -300,7 +301,7 @@ def write_csv(aggregated: dict, path: Path) -> None:
     log.info("Wrote %s", path.name)
 
 
-def write_report(aggregated: dict, report_edges: list[str],
+def write_report(aggregated: dict, report_edges: list,
                  checkpoint: int, window: int, reps: int,
                  path: Path) -> None:
     """
@@ -320,7 +321,7 @@ def write_report(aggregated: dict, report_edges: list[str],
     lines.append("=" * 70)
 
     # Group aggregated data by edge
-    by_edge: dict[str, dict] = defaultdict(dict)
+    by_edge = defaultdict(dict)
     for (begin, end, eid), vals in aggregated.items():
         by_edge[eid][(begin, end)] = vals
 
@@ -403,6 +404,10 @@ def main() -> int:
     ap.add_argument("--bind",       default="",
                     help="Apptainer bind mount: host_path:container_path "
                          "(default: <sumocfg parent>:/data)")
+    ap.add_argument("--aggregate-only", action="store_true",
+                    help="Skip SUMO runs — read existing edgedata_mc.xml files "
+                         "from output/run_XXXX/ and go straight to aggregation. "
+                         "Use this in the Slurm aggregate job after mc_array.sh finishes.")
     ap.add_argument("--edges",      default="",
                     help="Comma-separated edge ids to include in report "
                          "(default: top 10 by mean density)")
@@ -435,41 +440,53 @@ def main() -> int:
         log.info("  runner     : %s (direct)", args.sumo_bin)
     log.info("=" * 60)
 
-    all_run_data: list[dict] = []
-    failed_seeds: list[int]  = []
+    all_run_data: list = []
+    failed_seeds: list = []
 
-    for i in range(args.reps):
-        seed     = args.seed_start + i
-        run_dir  = out_root / f"run_{seed:04d}"
-        run_dir.mkdir(parents=True, exist_ok=True)
+    if args.aggregate_only:
+        # Skip SUMO — read whatever edgedata_mc.xml files already exist
+        log.info("Aggregate-only mode: scanning %s for existing run folders ...", out_root)
+        found = sorted(out_root.glob("run_*/edgedata_mc.xml"))
+        if not found:
+            log.error("No edgedata_mc.xml files found in %s", out_root)
+            return 1
+        for edgedata_path in found:
+            run_data = parse_edgedata(edgedata_path)
+            log.info("  read %s → %d entries", edgedata_path.parent.name, len(run_data))
+            if run_data:
+                all_run_data.append(run_data)
+    else:
+        for i in range(args.reps):
+            seed     = args.seed_start + i
+            run_dir  = out_root / f"run_{seed:04d}"
+            run_dir.mkdir(parents=True, exist_ok=True)
 
-        edgedata_file = str((run_dir / "edgedata_mc.xml").resolve())
+            edgedata_file = str((run_dir / "edgedata_mc.xml").resolve())
 
-        # Write per-run additional file (edgeData scoped to our window)
-        add_path = write_mc_edgedata_add(
-            run_dir, checkpoint, end_time, args.interval, edgedata_file
-        )
+            add_path = write_mc_edgedata_add(
+                run_dir, checkpoint, end_time, args.interval, edgedata_file
+            )
 
-        log.info("[%d/%d] Running seed=%d ...", i + 1, args.reps, seed)
-        ok = run_sumo(
-            sumo_bin     = args.sumo_bin,
-            cfg          = cfg,
-            seed         = seed,
-            checkpoint   = checkpoint,
-            end_time     = end_time,
-            additional   = add_path,
-            edgedata_out = Path(edgedata_file),
-            run_dir      = run_dir,
-            sif          = args.sif,
-            bind         = args.bind,
-        )
-        if not ok:
-            failed_seeds.append(seed)
-            continue
+            log.info("[%d/%d] Running seed=%d ...", i + 1, args.reps, seed)
+            ok = run_sumo(
+                sumo_bin     = args.sumo_bin,
+                cfg          = cfg,
+                seed         = seed,
+                checkpoint   = checkpoint,
+                end_time     = end_time,
+                additional   = add_path,
+                edgedata_out = Path(edgedata_file),
+                run_dir      = run_dir,
+                sif          = args.sif,
+                bind         = args.bind,
+            )
+            if not ok:
+                failed_seeds.append(seed)
+                continue
 
-        run_data = parse_edgedata(Path(edgedata_file))
-        log.info("  → parsed %d (interval, edge) entries", len(run_data))
-        all_run_data.append(run_data)
+            run_data = parse_edgedata(Path(edgedata_file))
+            log.info("  → parsed %d (interval, edge) entries", len(run_data))
+            all_run_data.append(run_data)
 
     if not all_run_data:
         log.error("All SUMO runs failed. Check sumo.log files in %s", out_root)

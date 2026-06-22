@@ -1,39 +1,30 @@
 #!/bin/bash
-#SBATCH --job-name=mc_aggregate
-#SBATCH --partition=cclake
+#SBATCH -J mc_aggregate
+#SBATCH -A AIRR-P89-DAWN-GPU
+#SBATCH -p pvc9
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=2
+#SBATCH --gres=gpu:1
 #SBATCH --mem=4G
 #SBATCH --time=00:15:00
-#SBATCH --output=logs/mc_aggregate_%j.out
-#SBATCH --error=logs/mc_aggregate_%j.err
-
-# Submit AFTER the array job finishes:
-#   sbatch --dependency=afterok:<ARRAY_JOB_ID> slurm/mc_aggregate.sh
-#
-# Or submit both at once and let Slurm handle the dependency:
-#   ARRAY_JID=$(sbatch --parsable slurm/mc_array.sh)
-#   sbatch --dependency=afterok:$ARRAY_JID slurm/mc_aggregate.sh
+#SBATCH --output=/home/%u/Smart-Transport-SUMO/logs/mc_aggregate_%j.out
+#SBATCH --error=/home/%u/Smart-Transport-SUMO/logs/mc_aggregate_%j.err
 
 set -euo pipefail
 
-PROJECT_ROOT="$HOME/network-plus"
+PROJECT_ROOT="$HOME/Smart-Transport-SUMO"
 
 module purge
-module load python/3.11
+module load rhel9/default-dawn
 
-cd "$PROJECT_ROOT"
-
-python scripts/montecarlo_predict.py \
-    --sumocfg    pipeline_output/sumo/sumo_city.sumocfg \
-    --checkpoint 36000 \
-    --window     7200 \
-    --interval   900 \
-    --reps       8 \
-    --seed-start 1 \
-    --output     mc_results
+python3 "$PROJECT_ROOT/scripts/montecarlo_predict.py" \
+    --sumocfg        "$PROJECT_ROOT/sumo/sumo_city.sumocfg" \
+    --checkpoint     36000 \
+    --window         7200 \
+    --interval       900 \
+    --output         "$PROJECT_ROOT/mc_results" \
+    --aggregate-only
 
 echo "Aggregation done."
-echo "Report: $PROJECT_ROOT/mc_results/mc_report.txt"
 cat "$PROJECT_ROOT/mc_results/mc_report.txt"
