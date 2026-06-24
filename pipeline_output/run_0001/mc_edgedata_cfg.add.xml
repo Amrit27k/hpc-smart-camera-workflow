@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+  <edgeData id="mc_edge" begin="36000" end="43200" freq="900" file="/sumo/mc_results/run_0001/edgedata_mc.xml" excludeEmpty="true"/>
+</additional>

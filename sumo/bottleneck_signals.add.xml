@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    bottleneck_signals.add.xml
+    ==========================
+    Forces density > 1 veh/km/lane on the corridor:
+        -2535039#2  →  79633771#0  →  79633771#2
+    during the morning peak window 07:00–09:00 (25200s–32400s).
+
+    All three edges are single-lane (numLanes not set / =1 in net.xml),
+    so only lane index _0 is used on each VSS.
+
+    Mechanism: drop approach speed to 2.78 m/s (10 km/h) for the full
+    2-hour window. Vehicles already on these busy edges dwell far longer
+    per interval, pushing time-averaged density well above 1 vkl.
+-->
+<additional>
+
+    <!-- ── -2535039#2 (single lane) ────────────────────────────────────── -->
+    <variableSpeedSign id="vss_A" lanes="-2535039#2_0" startPos="0" endPos="999">
+        <step time="25200" speed="2.78"/>   <!-- 07:00: drop to 10 km/h -->
+        <step time="32400" speed="13.89"/>  <!-- 09:00: restore 50 km/h -->
+    </variableSpeedSign>
+
+    <!-- ── 79633771#0 (single lane) ────────────────────────────────────── -->
+    <variableSpeedSign id="vss_B" lanes="79633771#0_0" startPos="0" endPos="999">
+        <step time="25200" speed="2.78"/>
+        <step time="32400" speed="13.89"/>
+    </variableSpeedSign>
+
+    <!-- ── 79633771#2 (single lane) ────────────────────────────────────── -->
+    <variableSpeedSign id="vss_C" lanes="79633771#2_0" startPos="0" endPos="999">
+        <step time="25200" speed="2.78"/>
+        <step time="32400" speed="13.89"/>
+    </variableSpeedSign>
+
+</additional>

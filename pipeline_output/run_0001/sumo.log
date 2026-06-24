@@ -1,0 +1,15 @@
+Loading net-file from '/sumo/sumo/newcastle_stjames-full.net.xml' ... done (767ms).
+Loading additional-files from '/sumo/mc_results/run_0001/mc_edgedata_cfg.add.xml' ... done (10ms).
+Loading route-files incrementally from '/sumo/sumo/routes_city.xml'
+Loading done.
+Simulation version v1_27_0+0184-c14fd3e372d started with time: 36000.00.
+Simulation ended at time: 43200.00.
+Reason: The final simulation step has been reached.
+Performance:
+ Duration: 0.14s
+ Real time factor: 50704.2
+ UPS: 140978.873239
+Vehicles:
+ Inserted: 163 (Loaded: 166)
+ Running: 1
+ Waiting: 0
