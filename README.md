@@ -53,3 +53,33 @@ If the job fails, inspect the error log:
 ```Bash
 cat result_*.err
 ```
+### Investigate Job
+
+```bash
+sprio -j 30998660
+squeue -p pvc9 --start  # Estimates when your job might start
+```
+### Modify running jobs
+
+```Bash
+# time limit
+scontrol update jobid=<jobid> TimeLimit=00:15:00
+
+# start time (can delay but not force earlier)
+scontrol update jobid=<jobid> StartTime=now
+```
+
+### Cancel a job
+
+```Bash
+scancel <jobid>
+```
+
+## Running on CSD3-DAWN
+```bash
+ARRAY_JOB=$(sbatch --parsable $HOME/Smart-Transport-SUMO/scripts/mc_array.sh)
+echo "Array job: $ARRAY_JOB"
+
+sbatch --dependency=afterok:$ARRAY_JOB $HOME/Smart-Transport-SUMO/scripts mc_aggregate.sh
+```
+
