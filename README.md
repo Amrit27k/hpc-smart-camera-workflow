@@ -69,6 +69,12 @@ scontrol update jobid=<jobid> TimeLimit=00:15:00
 scontrol update jobid=<jobid> StartTime=now
 ```
 
+### Check the node's state
+
+```Bash
+sinfo -n <node-id>
+```
+
 ### Cancel a job
 
 ```Bash

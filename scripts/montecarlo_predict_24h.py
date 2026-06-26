@@ -484,7 +484,7 @@ def main() -> int:
                     help="Apptainer bind mount  host_path:container_path")
     ap.add_argument("--aggregate-only", action="store_true",
                     help="Skip SUMO runs — aggregate existing edgedata_mc.xml files")
-    ap.add_argument("--edges",      default="",
+    ap.add_argument("--edges", action="append", dest="edges", default=[],
                     help="Comma-separated edge ids for the report "
                          "(default: top 10 by mean density)")
     args = ap.parse_args()

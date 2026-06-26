@@ -4,33 +4,42 @@
     ==========================
     Forces density > 1 veh/km/lane on the corridor:
         -2535039#2  →  79633771#0  →  79633771#2
-    during the morning peak window 07:00–09:00 (25200s–32400s).
 
-    All three edges are single-lane (numLanes not set / =1 in net.xml),
-    so only lane index _0 is used on each VSS.
+    Bottleneck windows:
+      AM peak: 07:00–09:00  (25200s–32400s)
+      PM peak: 17:00–19:00  (61200s–68400s)
 
-    Mechanism: drop approach speed to 2.78 m/s (10 km/h) for the full
-    2-hour window. Vehicles already on these busy edges dwell far longer
-    per interval, pushing time-averaged density well above 1 vkl.
+    Outside these windows the VSS steps restore free-flow speed (13.89 m/s
+    = 50 km/h), so all other checkpoints run as normal.
+
+    All three edges are single-lane (lane index _0 only).
 -->
 <additional>
 
-    <!-- ── -2535039#2 (single lane) ────────────────────────────────────── -->
+    <!-- ── -2535039#2 ───────────────────────────────────────────────────── -->
     <variableSpeedSign id="vss_A" lanes="-2535039#2_0" startPos="0" endPos="999">
+        <!-- AM peak -->
         <step time="25200" speed="2.78"/>   <!-- 07:00: drop to 10 km/h -->
         <step time="32400" speed="13.89"/>  <!-- 09:00: restore 50 km/h -->
+        <!-- PM peak -->
+        <step time="61200" speed="2.78"/>   <!-- 17:00: drop to 10 km/h -->
+        <step time="68400" speed="13.89"/>  <!-- 19:00: restore 50 km/h -->
     </variableSpeedSign>
 
-    <!-- ── 79633771#0 (single lane) ────────────────────────────────────── -->
+    <!-- ── 79633771#0 ───────────────────────────────────────────────────── -->
     <variableSpeedSign id="vss_B" lanes="79633771#0_0" startPos="0" endPos="999">
         <step time="25200" speed="2.78"/>
         <step time="32400" speed="13.89"/>
+        <step time="61200" speed="2.78"/>
+        <step time="68400" speed="13.89"/>
     </variableSpeedSign>
 
-    <!-- ── 79633771#2 (single lane) ────────────────────────────────────── -->
+    <!-- ── 79633771#2 ───────────────────────────────────────────────────── -->
     <variableSpeedSign id="vss_C" lanes="79633771#2_0" startPos="0" endPos="999">
         <step time="25200" speed="2.78"/>
         <step time="32400" speed="13.89"/>
+        <step time="61200" speed="2.78"/>
+        <step time="68400" speed="13.89"/>
     </variableSpeedSign>
 
 </additional>
