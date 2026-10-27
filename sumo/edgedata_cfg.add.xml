@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+  <edgeData id="hourly" freq="3600" file="edgedata.xml" excludeEmpty="true"/>
+</additional>

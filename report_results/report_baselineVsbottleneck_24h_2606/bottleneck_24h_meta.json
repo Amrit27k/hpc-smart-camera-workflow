@@ -1,0 +1,842 @@
+[
+  {
+    "checkpoint_s": 0,
+    "end_s": 7200,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.73,
+        "density_mean_vkl": 0.124,
+        "n_edges": 112
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.568,
+        "density_mean_vkl": 0.119,
+        "n_edges": 66
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 9.052,
+        "density_mean_vkl": 0.124,
+        "n_edges": 29
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.433,
+        "density_mean_vkl": 0.112,
+        "n_edges": 125
+      }
+    },
+    "ckpt_dir": "ckpt_bn_00000"
+  },
+  {
+    "checkpoint_s": 3600,
+    "end_s": 10800,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.204,
+        "density_mean_vkl": 0.112,
+        "n_edges": 41
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 11.099,
+        "density_mean_vkl": 0.101,
+        "n_edges": 34
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.127,
+        "density_mean_vkl": 0.116,
+        "n_edges": 125
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.288,
+        "density_mean_vkl": 0.114,
+        "n_edges": 86
+      }
+    },
+    "ckpt_dir": "ckpt_bn_03600"
+  },
+  {
+    "checkpoint_s": 7200,
+    "end_s": 14400,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.248,
+        "density_mean_vkl": 0.108,
+        "n_edges": 39
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.882,
+        "density_mean_vkl": 0.137,
+        "n_edges": 71
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.164,
+        "density_mean_vkl": 0.115,
+        "n_edges": 86
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 9.907,
+        "density_mean_vkl": 0.114,
+        "n_edges": 62
+      }
+    },
+    "ckpt_dir": "ckpt_bn_07200"
+  },
+  {
+    "checkpoint_s": 10800,
+    "end_s": 18000,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.677,
+        "density_mean_vkl": 0.125,
+        "n_edges": 105
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.246,
+        "density_mean_vkl": 0.105,
+        "n_edges": 59
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 9.773,
+        "density_mean_vkl": 0.114,
+        "n_edges": 62
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.459,
+        "density_mean_vkl": 0.132,
+        "n_edges": 164
+      }
+    },
+    "ckpt_dir": "ckpt_bn_10800"
+  },
+  {
+    "checkpoint_s": 14400,
+    "end_s": 21600,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.907,
+        "density_mean_vkl": 0.131,
+        "n_edges": 139
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.193,
+        "density_mean_vkl": 0.117,
+        "n_edges": 85
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.345,
+        "density_mean_vkl": 0.134,
+        "n_edges": 164
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 9.86,
+        "density_mean_vkl": 0.22,
+        "n_edges": 254
+      }
+    },
+    "ckpt_dir": "ckpt_bn_14400"
+  },
+  {
+    "checkpoint_s": 18000,
+    "end_s": 25200,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.96,
+        "density_mean_vkl": 0.144,
+        "n_edges": 187
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.788,
+        "density_mean_vkl": 0.22,
+        "n_edges": 224
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 9.853,
+        "density_mean_vkl": 0.22,
+        "n_edges": 255
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.197,
+        "density_mean_vkl": 0.206,
+        "n_edges": 333
+      }
+    },
+    "ckpt_dir": "ckpt_bn_18000"
+  },
+  {
+    "checkpoint_s": 21600,
+    "end_s": 28800,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.946,
+        "density_mean_vkl": 0.215,
+        "n_edges": 326
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.131,
+        "density_mean_vkl": 0.292,
+        "n_edges": 342
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.375,
+        "density_mean_vkl": 0.202,
+        "n_edges": 333
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 9.548,
+        "density_mean_vkl": 0.353,
+        "n_edges": 402
+      }
+    },
+    "ckpt_dir": "ckpt_bn_21600"
+  },
+  {
+    "checkpoint_s": 25200,
+    "end_s": 32400,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.474,
+        "density_mean_vkl": 0.423,
+        "n_edges": 412
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.388,
+        "density_mean_vkl": 0.413,
+        "n_edges": 461
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 9.654,
+        "density_mean_vkl": 0.349,
+        "n_edges": 403
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 9.324,
+        "density_mean_vkl": 0.576,
+        "n_edges": 431
+      }
+    },
+    "ckpt_dir": "ckpt_bn_25200"
+  },
+  {
+    "checkpoint_s": 28800,
+    "end_s": 36000,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.348,
+        "density_mean_vkl": 0.406,
+        "n_edges": 497
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.624,
+        "density_mean_vkl": 0.396,
+        "n_edges": 427
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 9.248,
+        "density_mean_vkl": 0.582,
+        "n_edges": 431
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.027,
+        "density_mean_vkl": 0.355,
+        "n_edges": 427
+      }
+    },
+    "ckpt_dir": "ckpt_bn_28800"
+  },
+  {
+    "checkpoint_s": 32400,
+    "end_s": 39600,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.899,
+        "density_mean_vkl": 0.277,
+        "n_edges": 406
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.057,
+        "density_mean_vkl": 0.264,
+        "n_edges": 420
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.013,
+        "density_mean_vkl": 0.354,
+        "n_edges": 427
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 9.969,
+        "density_mean_vkl": 0.243,
+        "n_edges": 352
+      }
+    },
+    "ckpt_dir": "ckpt_bn_32400"
+  },
+  {
+    "checkpoint_s": 36000,
+    "end_s": 43200,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.135,
+        "density_mean_vkl": 0.291,
+        "n_edges": 332
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.168,
+        "density_mean_vkl": 0.19,
+        "n_edges": 241
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 9.919,
+        "density_mean_vkl": 0.244,
+        "n_edges": 353
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.69,
+        "density_mean_vkl": 0.173,
+        "n_edges": 291
+      }
+    },
+    "ckpt_dir": "ckpt_bn_36000"
+  },
+  {
+    "checkpoint_s": 39600,
+    "end_s": 46800,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.065,
+        "density_mean_vkl": 0.175,
+        "n_edges": 275
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.202,
+        "density_mean_vkl": 0.259,
+        "n_edges": 255
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.617,
+        "density_mean_vkl": 0.175,
+        "n_edges": 291
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 9.916,
+        "density_mean_vkl": 0.262,
+        "n_edges": 326
+      }
+    },
+    "ckpt_dir": "ckpt_bn_39600"
+  },
+  {
+    "checkpoint_s": 43200,
+    "end_s": 50400,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.762,
+        "density_mean_vkl": 0.223,
+        "n_edges": 276
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.935,
+        "density_mean_vkl": 0.242,
+        "n_edges": 318
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.052,
+        "density_mean_vkl": 0.259,
+        "n_edges": 326
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.22,
+        "density_mean_vkl": 0.201,
+        "n_edges": 245
+      }
+    },
+    "ckpt_dir": "ckpt_bn_43200"
+  },
+  {
+    "checkpoint_s": 46800,
+    "end_s": 54000,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.348,
+        "density_mean_vkl": 0.185,
+        "n_edges": 276
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.229,
+        "density_mean_vkl": 0.242,
+        "n_edges": 334
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.267,
+        "density_mean_vkl": 0.201,
+        "n_edges": 245
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.61,
+        "density_mean_vkl": 0.202,
+        "n_edges": 352
+      }
+    },
+    "ckpt_dir": "ckpt_bn_46800"
+  },
+  {
+    "checkpoint_s": 50400,
+    "end_s": 57600,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.485,
+        "density_mean_vkl": 0.138,
+        "n_edges": 247
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.249,
+        "density_mean_vkl": 0.175,
+        "n_edges": 284
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.544,
+        "density_mean_vkl": 0.203,
+        "n_edges": 350
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.081,
+        "density_mean_vkl": 0.162,
+        "n_edges": 266
+      }
+    },
+    "ckpt_dir": "ckpt_bn_50400"
+  },
+  {
+    "checkpoint_s": 54000,
+    "end_s": 61200,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.011,
+        "density_mean_vkl": 0.164,
+        "n_edges": 237
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.351,
+        "density_mean_vkl": 0.191,
+        "n_edges": 211
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.059,
+        "density_mean_vkl": 0.163,
+        "n_edges": 266
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 9.866,
+        "density_mean_vkl": 0.213,
+        "n_edges": 255
+      }
+    },
+    "ckpt_dir": "ckpt_bn_54000"
+  },
+  {
+    "checkpoint_s": 57600,
+    "end_s": 64800,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.712,
+        "density_mean_vkl": 0.163,
+        "n_edges": 216
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.097,
+        "density_mean_vkl": 0.247,
+        "n_edges": 391
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 9.834,
+        "density_mean_vkl": 0.213,
+        "n_edges": 256
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 9.583,
+        "density_mean_vkl": 0.279,
+        "n_edges": 420
+      }
+    },
+    "ckpt_dir": "ckpt_bn_57600"
+  },
+  {
+    "checkpoint_s": 61200,
+    "end_s": 68400,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.555,
+        "density_mean_vkl": 0.36,
+        "n_edges": 423
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.35,
+        "density_mean_vkl": 0.364,
+        "n_edges": 455
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 9.543,
+        "density_mean_vkl": 0.281,
+        "n_edges": 419
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 9.576,
+        "density_mean_vkl": 0.355,
+        "n_edges": 451
+      }
+    },
+    "ckpt_dir": "ckpt_bn_61200"
+  },
+  {
+    "checkpoint_s": 64800,
+    "end_s": 72000,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.369,
+        "density_mean_vkl": 0.377,
+        "n_edges": 433
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.29,
+        "density_mean_vkl": 0.363,
+        "n_edges": 403
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 9.547,
+        "density_mean_vkl": 0.356,
+        "n_edges": 451
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.235,
+        "density_mean_vkl": 0.221,
+        "n_edges": 320
+      }
+    },
+    "ckpt_dir": "ckpt_bn_64800"
+  },
+  {
+    "checkpoint_s": 68400,
+    "end_s": 75600,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.1,
+        "density_mean_vkl": 0.213,
+        "n_edges": 345
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.985,
+        "density_mean_vkl": 0.273,
+        "n_edges": 398
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.381,
+        "density_mean_vkl": 0.218,
+        "n_edges": 320
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.005,
+        "density_mean_vkl": 0.268,
+        "n_edges": 264
+      }
+    },
+    "ckpt_dir": "ckpt_bn_68400"
+  },
+  {
+    "checkpoint_s": 72000,
+    "end_s": 79200,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.539,
+        "density_mean_vkl": 0.176,
+        "n_edges": 365
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.909,
+        "density_mean_vkl": 0.229,
+        "n_edges": 355
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.098,
+        "density_mean_vkl": 0.269,
+        "n_edges": 264
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.207,
+        "density_mean_vkl": 0.166,
+        "n_edges": 315
+      }
+    },
+    "ckpt_dir": "ckpt_bn_72000"
+  },
+  {
+    "checkpoint_s": 75600,
+    "end_s": 82800,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 10.164,
+        "density_mean_vkl": 0.219,
+        "n_edges": 177
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.089,
+        "density_mean_vkl": 0.202,
+        "n_edges": 161
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.134,
+        "density_mean_vkl": 0.167,
+        "n_edges": 315
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.67,
+        "density_mean_vkl": 0.174,
+        "n_edges": 98
+      }
+    },
+    "ckpt_dir": "ckpt_bn_75600"
+  },
+  {
+    "checkpoint_s": 79200,
+    "end_s": 86400,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.719,
+        "density_mean_vkl": 0.118,
+        "n_edges": 160
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 10.147,
+        "density_mean_vkl": 0.132,
+        "n_edges": 173
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.361,
+        "density_mean_vkl": 0.178,
+        "n_edges": 96
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.215,
+        "density_mean_vkl": 0.11,
+        "n_edges": 150
+      }
+    },
+    "ckpt_dir": "ckpt_bn_79200"
+  },
+  {
+    "checkpoint_s": 82800,
+    "end_s": 90000,
+    "interval_s": 900,
+    "n_reps": 10,
+    "failed_seeds": [],
+    "report_edges": [
+      "-2535039#2",
+      "79633771#0",
+      "79633771#2"
+    ],
+    "citywide": {
+      "+15min": {
+        "speed_mean_weighted_ms": 9.258,
+        "density_mean_vkl": 0.119,
+        "n_edges": 81
+      },
+      "+30min": {
+        "speed_mean_weighted_ms": 9.9,
+        "density_mean_vkl": 0.153,
+        "n_edges": 80
+      },
+      "+1h": {
+        "speed_mean_weighted_ms": 10.318,
+        "density_mean_vkl": 0.109,
+        "n_edges": 150
+      },
+      "+2h": {
+        "speed_mean_weighted_ms": 10.318,
+        "density_mean_vkl": 0.109,
+        "n_edges": 150
+      }
+    },
+    "ckpt_dir": "ckpt_bn_82800"
+  }
+]

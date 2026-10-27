@@ -1,0 +1,29 @@
+{
+  "collection_run": "20260615_151800",
+  "nodes": {
+    "node_A": {
+      "routes": "edge_data_inbox\\node_A\\routes_node_A.xml",
+      "vtypes": "edge_data_inbox\\node_A\\vtypes_node_A.xml",
+      "edgedata": null,
+      "stale": [
+        "routes",
+        "vtypes"
+      ],
+      "missing": [
+        "edgedata"
+      ]
+    },
+    "node_B": {
+      "routes": "edge_data_inbox\\node_B\\routes_node_B.xml",
+      "vtypes": "edge_data_inbox\\node_B\\vtypes_node_B.xml",
+      "edgedata": null,
+      "stale": [
+        "routes",
+        "vtypes"
+      ],
+      "missing": [
+        "edgedata"
+      ]
+    }
+  }
+}

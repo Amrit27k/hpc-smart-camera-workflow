@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-tree = ET.parse('pipeline_output/sumo/routes.xml')
+tree = ET.parse('pipeline_output/sumo/routes_city.xml')
 vehs = [(v.get('depart'), v.get('id')) for v in tree.findall('vehicle')]
 vehs.sort(key=lambda x: float(x[0]))
 print('First 5 departures:')

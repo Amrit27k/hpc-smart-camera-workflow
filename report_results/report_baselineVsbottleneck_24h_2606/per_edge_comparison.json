@@ -1,0 +1,3674 @@
+[
+  {
+    "checkpoint_s": 21600,
+    "checkpoint_hhmm": "06:00",
+    "edge": "-2535039#2",
+    "baseline": [
+      {
+        "begin": 21600.0,
+        "end": 22500.0,
+        "density": 0.89,
+        "speed": 8.74,
+        "density_min": 0.89,
+        "density_max": 0.89,
+        "speed_std": 0.0566
+      },
+      {
+        "begin": 22500.0,
+        "end": 23400.0,
+        "density": 1.015,
+        "speed": 8.74,
+        "density_min": 1.01,
+        "density_max": 1.02,
+        "speed_std": 0.0707
+      },
+      {
+        "begin": 23400.0,
+        "end": 24300.0,
+        "density": 0.62,
+        "speed": 8.95,
+        "density_min": 0.59,
+        "density_max": 0.65,
+        "speed_std": 0.5515
+      },
+      {
+        "begin": 24300.0,
+        "end": 25200.0,
+        "density": 0.61,
+        "speed": 9.08,
+        "density_min": 0.6,
+        "density_max": 0.62,
+        "speed_std": 0.2263
+      },
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 1.705,
+        "speed": 9.145,
+        "density_min": 1.69,
+        "density_max": 1.72,
+        "speed_std": 0.1202
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 1.865,
+        "speed": 8.94,
+        "density_min": 1.86,
+        "density_max": 1.87,
+        "speed_std": 0.0566
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 1.34,
+        "speed": 9.14,
+        "density_min": 1.33,
+        "density_max": 1.35,
+        "speed_std": 0.099
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 1.135,
+        "speed": 8.82,
+        "density_min": 1.1,
+        "density_max": 1.17,
+        "speed_std": 0.3818
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 21600.0,
+        "end": 22500.0,
+        "density": 0.879,
+        "speed": 8.838,
+        "density_min": 0.84,
+        "density_max": 0.91,
+        "speed_std": 0.2043
+      },
+      {
+        "begin": 22500.0,
+        "end": 23400.0,
+        "density": 0.993,
+        "speed": 8.75,
+        "density_min": 0.89,
+        "density_max": 1.04,
+        "speed_std": 0.1528
+      },
+      {
+        "begin": 23400.0,
+        "end": 24300.0,
+        "density": 0.657,
+        "speed": 8.774,
+        "density_min": 0.59,
+        "density_max": 0.76,
+        "speed_std": 0.2578
+      },
+      {
+        "begin": 24300.0,
+        "end": 25200.0,
+        "density": 0.624,
+        "speed": 8.919,
+        "density_min": 0.6,
+        "density_max": 0.67,
+        "speed_std": 0.3558
+      },
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 5.531,
+        "speed": 2.768,
+        "density_min": 5.36,
+        "density_max": 5.77,
+        "speed_std": 0.0719
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 6.223,
+        "speed": 2.724,
+        "density_min": 5.84,
+        "density_max": 6.69,
+        "speed_std": 0.0826
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 4.385,
+        "speed": 2.788,
+        "density_min": 4.26,
+        "density_max": 4.58,
+        "speed_std": 0.0621
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 3.618,
+        "speed": 2.756,
+        "density_min": 3.5,
+        "density_max": 3.76,
+        "speed_std": 0.0793
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 21600,
+    "checkpoint_hhmm": "06:00",
+    "edge": "79633771#0",
+    "baseline": [
+      {
+        "begin": 21600.0,
+        "end": 22500.0,
+        "density": 0.89,
+        "speed": 8.74,
+        "density_min": 0.89,
+        "density_max": 0.89,
+        "speed_std": 0.0566
+      },
+      {
+        "begin": 22500.0,
+        "end": 23400.0,
+        "density": 1.015,
+        "speed": 8.74,
+        "density_min": 1.01,
+        "density_max": 1.02,
+        "speed_std": 0.0707
+      },
+      {
+        "begin": 23400.0,
+        "end": 24300.0,
+        "density": 0.62,
+        "speed": 8.95,
+        "density_min": 0.59,
+        "density_max": 0.65,
+        "speed_std": 0.5515
+      },
+      {
+        "begin": 24300.0,
+        "end": 25200.0,
+        "density": 0.61,
+        "speed": 9.08,
+        "density_min": 0.6,
+        "density_max": 0.62,
+        "speed_std": 0.2263
+      },
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 1.57,
+        "speed": 9.195,
+        "density_min": 1.55,
+        "density_max": 1.59,
+        "speed_std": 0.1768
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 1.87,
+        "speed": 8.905,
+        "density_min": 1.87,
+        "density_max": 1.87,
+        "speed_std": 0.0071
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 1.34,
+        "speed": 9.14,
+        "density_min": 1.33,
+        "density_max": 1.35,
+        "speed_std": 0.099
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 1.135,
+        "speed": 8.82,
+        "density_min": 1.1,
+        "density_max": 1.17,
+        "speed_std": 0.3818
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 21600.0,
+        "end": 22500.0,
+        "density": 0.879,
+        "speed": 8.838,
+        "density_min": 0.84,
+        "density_max": 0.91,
+        "speed_std": 0.2043
+      },
+      {
+        "begin": 22500.0,
+        "end": 23400.0,
+        "density": 0.969,
+        "speed": 8.767,
+        "density_min": 0.88,
+        "density_max": 1.03,
+        "speed_std": 0.1479
+      },
+      {
+        "begin": 23400.0,
+        "end": 24300.0,
+        "density": 0.682,
+        "speed": 8.748,
+        "density_min": 0.59,
+        "density_max": 0.78,
+        "speed_std": 0.2583
+      },
+      {
+        "begin": 24300.0,
+        "end": 25200.0,
+        "density": 0.624,
+        "speed": 8.918,
+        "density_min": 0.6,
+        "density_max": 0.67,
+        "speed_std": 0.3557
+      },
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 5.036,
+        "speed": 2.718,
+        "density_min": 4.71,
+        "density_max": 5.75,
+        "speed_std": 0.1354
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 6.562,
+        "speed": 2.637,
+        "density_min": 6.01,
+        "density_max": 7.32,
+        "speed_std": 0.1193
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 4.483,
+        "speed": 2.769,
+        "density_min": 4.26,
+        "density_max": 4.68,
+        "speed_std": 0.0633
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 3.576,
+        "speed": 2.721,
+        "density_min": 3.16,
+        "density_max": 4.0,
+        "speed_std": 0.1155
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 21600,
+    "checkpoint_hhmm": "06:00",
+    "edge": "79633771#2",
+    "baseline": [
+      {
+        "begin": 21600.0,
+        "end": 22500.0,
+        "density": 0.89,
+        "speed": 8.74,
+        "density_min": 0.89,
+        "density_max": 0.89,
+        "speed_std": 0.0566
+      },
+      {
+        "begin": 22500.0,
+        "end": 23400.0,
+        "density": 1.015,
+        "speed": 8.74,
+        "density_min": 1.01,
+        "density_max": 1.02,
+        "speed_std": 0.0707
+      },
+      {
+        "begin": 23400.0,
+        "end": 24300.0,
+        "density": 0.63,
+        "speed": 8.805,
+        "density_min": 0.59,
+        "density_max": 0.67,
+        "speed_std": 0.7566
+      },
+      {
+        "begin": 24300.0,
+        "end": 25200.0,
+        "density": 0.61,
+        "speed": 9.08,
+        "density_min": 0.6,
+        "density_max": 0.62,
+        "speed_std": 0.2263
+      },
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 1.57,
+        "speed": 9.2,
+        "density_min": 1.55,
+        "density_max": 1.59,
+        "speed_std": 0.1838
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 1.87,
+        "speed": 8.905,
+        "density_min": 1.87,
+        "density_max": 1.87,
+        "speed_std": 0.0071
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 1.34,
+        "speed": 9.14,
+        "density_min": 1.33,
+        "density_max": 1.35,
+        "speed_std": 0.099
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 1.135,
+        "speed": 8.82,
+        "density_min": 1.1,
+        "density_max": 1.17,
+        "speed_std": 0.3818
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 21600.0,
+        "end": 22500.0,
+        "density": 0.879,
+        "speed": 8.838,
+        "density_min": 0.84,
+        "density_max": 0.91,
+        "speed_std": 0.2043
+      },
+      {
+        "begin": 22500.0,
+        "end": 23400.0,
+        "density": 0.961,
+        "speed": 8.769,
+        "density_min": 0.88,
+        "density_max": 1.03,
+        "speed_std": 0.1446
+      },
+      {
+        "begin": 23400.0,
+        "end": 24300.0,
+        "density": 0.69,
+        "speed": 8.715,
+        "density_min": 0.59,
+        "density_max": 0.78,
+        "speed_std": 0.296
+      },
+      {
+        "begin": 24300.0,
+        "end": 25200.0,
+        "density": 0.624,
+        "speed": 8.918,
+        "density_min": 0.6,
+        "density_max": 0.67,
+        "speed_std": 0.3549
+      },
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 1.52,
+        "speed": 8.904,
+        "density_min": 1.46,
+        "density_max": 1.58,
+        "speed_std": 0.2697
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 1.93,
+        "speed": 8.677,
+        "density_min": 1.82,
+        "density_max": 2.29,
+        "speed_std": 0.4069
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 1.466,
+        "speed": 8.944,
+        "density_min": 1.34,
+        "density_max": 1.6,
+        "speed_std": 0.2077
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 1.049,
+        "speed": 8.87,
+        "density_min": 0.94,
+        "density_max": 1.15,
+        "speed_std": 0.2444
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 25200,
+    "checkpoint_hhmm": "07:00",
+    "edge": "-2535039#2",
+    "baseline": [
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 1.815,
+        "speed": 8.575,
+        "density_min": 1.78,
+        "density_max": 1.85,
+        "speed_std": 0.2616
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 1.89,
+        "speed": 8.825,
+        "density_min": 1.88,
+        "density_max": 1.9,
+        "speed_std": 0.0636
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 1.38,
+        "speed": 8.86,
+        "density_min": 1.34,
+        "density_max": 1.42,
+        "speed_std": 0.3253
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 1.085,
+        "speed": 9.245,
+        "density_min": 1.06,
+        "density_max": 1.11,
+        "speed_std": 0.3041
+      },
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 2.13,
+        "speed": 8.875,
+        "density_min": 2.11,
+        "density_max": 2.15,
+        "speed_std": 0.1202
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 1.575,
+        "speed": 8.99,
+        "density_min": 1.55,
+        "density_max": 1.6,
+        "speed_std": 0.4243
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 1.27,
+        "speed": 8.975,
+        "density_min": 1.25,
+        "density_max": 1.29,
+        "speed_std": 0.1344
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 2.37,
+        "speed": 9.085,
+        "density_min": 2.33,
+        "density_max": 2.41,
+        "speed_std": 0.0354
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 5.597,
+        "speed": 2.712,
+        "density_min": 5.37,
+        "density_max": 5.92,
+        "speed_std": 0.0736
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 6.223,
+        "speed": 2.74,
+        "density_min": 6.05,
+        "density_max": 6.4,
+        "speed_std": 0.034
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 4.499,
+        "speed": 2.719,
+        "density_min": 4.35,
+        "density_max": 4.83,
+        "speed_std": 0.0824
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 3.559,
+        "speed": 2.802,
+        "density_min": 3.4,
+        "density_max": 3.79,
+        "speed_std": 0.1092
+      },
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 6.923,
+        "speed": 2.737,
+        "density_min": 6.65,
+        "density_max": 7.18,
+        "speed_std": 0.0595
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 5.228,
+        "speed": 2.732,
+        "density_min": 4.97,
+        "density_max": 5.63,
+        "speed_std": 0.1097
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 4.044,
+        "speed": 2.794,
+        "density_min": 3.79,
+        "density_max": 4.35,
+        "speed_std": 0.088
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 7.689,
+        "speed": 2.761,
+        "density_min": 7.51,
+        "density_max": 8.05,
+        "speed_std": 0.0621
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 25200,
+    "checkpoint_hhmm": "07:00",
+    "edge": "79633771#0",
+    "baseline": [
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 1.74,
+        "speed": 8.32,
+        "density_min": 1.66,
+        "density_max": 1.82,
+        "speed_std": 0.5374
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 1.9,
+        "speed": 8.765,
+        "density_min": 1.89,
+        "density_max": 1.91,
+        "speed_std": 0.0636
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 1.39,
+        "speed": 8.82,
+        "density_min": 1.36,
+        "density_max": 1.42,
+        "speed_std": 0.2687
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 1.085,
+        "speed": 9.245,
+        "density_min": 1.06,
+        "density_max": 1.11,
+        "speed_std": 0.3041
+      },
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 1.905,
+        "speed": 8.76,
+        "density_min": 1.88,
+        "density_max": 1.93,
+        "speed_std": 0.1556
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 1.535,
+        "speed": 9.03,
+        "density_min": 1.52,
+        "density_max": 1.55,
+        "speed_std": 0.3677
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 1.19,
+        "speed": 8.89,
+        "density_min": 1.12,
+        "density_max": 1.26,
+        "speed_std": 0.099
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 1.955,
+        "speed": 9.08,
+        "density_min": 1.95,
+        "density_max": 1.96,
+        "speed_std": 0.0141
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 5.094,
+        "speed": 2.643,
+        "density_min": 4.66,
+        "density_max": 5.45,
+        "speed_std": 0.0987
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 6.752,
+        "speed": 2.618,
+        "density_min": 6.33,
+        "density_max": 7.04,
+        "speed_std": 0.0684
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 4.529,
+        "speed": 2.703,
+        "density_min": 4.37,
+        "density_max": 5.0,
+        "speed_std": 0.0983
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 3.467,
+        "speed": 2.804,
+        "density_min": 3.26,
+        "density_max": 3.63,
+        "speed_std": 0.109
+      },
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 6.352,
+        "speed": 2.671,
+        "density_min": 6.1,
+        "density_max": 6.89,
+        "speed_std": 0.0871
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 4.946,
+        "speed": 2.729,
+        "density_min": 4.68,
+        "density_max": 5.23,
+        "speed_std": 0.1144
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 3.961,
+        "speed": 2.775,
+        "density_min": 3.58,
+        "density_max": 4.29,
+        "speed_std": 0.1258
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 6.412,
+        "speed": 2.739,
+        "density_min": 6.05,
+        "density_max": 6.74,
+        "speed_std": 0.0644
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 25200,
+    "checkpoint_hhmm": "07:00",
+    "edge": "79633771#2",
+    "baseline": [
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 1.705,
+        "speed": 8.485,
+        "density_min": 1.66,
+        "density_max": 1.75,
+        "speed_std": 0.3041
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 1.9,
+        "speed": 8.765,
+        "density_min": 1.89,
+        "density_max": 1.91,
+        "speed_std": 0.0636
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 1.39,
+        "speed": 8.82,
+        "density_min": 1.36,
+        "density_max": 1.42,
+        "speed_std": 0.2687
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 1.085,
+        "speed": 9.245,
+        "density_min": 1.06,
+        "density_max": 1.11,
+        "speed_std": 0.3041
+      },
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 1.905,
+        "speed": 8.745,
+        "density_min": 1.88,
+        "density_max": 1.93,
+        "speed_std": 0.1344
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 1.535,
+        "speed": 9.03,
+        "density_min": 1.52,
+        "density_max": 1.55,
+        "speed_std": 0.3677
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 1.195,
+        "speed": 8.84,
+        "density_min": 1.12,
+        "density_max": 1.27,
+        "speed_std": 0.099
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 1.965,
+        "speed": 9.055,
+        "density_min": 1.96,
+        "density_max": 1.97,
+        "speed_std": 0.0212
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 25200.0,
+        "end": 26100.0,
+        "density": 1.536,
+        "speed": 8.759,
+        "density_min": 1.45,
+        "density_max": 1.66,
+        "speed_std": 0.2508
+      },
+      {
+        "begin": 26100.0,
+        "end": 27000.0,
+        "density": 1.948,
+        "speed": 8.796,
+        "density_min": 1.88,
+        "density_max": 2.01,
+        "speed_std": 0.0723
+      },
+      {
+        "begin": 27000.0,
+        "end": 27900.0,
+        "density": 1.464,
+        "speed": 8.728,
+        "density_min": 1.35,
+        "density_max": 1.62,
+        "speed_std": 0.3204
+      },
+      {
+        "begin": 27900.0,
+        "end": 28800.0,
+        "density": 1.058,
+        "speed": 9.016,
+        "density_min": 0.97,
+        "density_max": 1.11,
+        "speed_std": 0.3557
+      },
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 2.242,
+        "speed": 7.64,
+        "density_min": 2.14,
+        "density_max": 2.39,
+        "speed_std": 0.272
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 1.52,
+        "speed": 8.792,
+        "density_min": 1.44,
+        "density_max": 1.61,
+        "speed_std": 0.3299
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 1.234,
+        "speed": 9.016,
+        "density_min": 1.16,
+        "density_max": 1.27,
+        "speed_std": 0.2891
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 1.952,
+        "speed": 8.941,
+        "density_min": 1.83,
+        "density_max": 2.03,
+        "speed_std": 0.1802
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 28800,
+    "checkpoint_hhmm": "08:00",
+    "edge": "-2535039#2",
+    "baseline": [
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 1.81,
+        "speed": 8.59,
+        "density_min": 1.78,
+        "density_max": 1.84,
+        "speed_std": 0.2121
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 1.66,
+        "speed": 8.695,
+        "density_min": 1.62,
+        "density_max": 1.7,
+        "speed_std": 0.3041
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 1.295,
+        "speed": 8.61,
+        "density_min": 1.26,
+        "density_max": 1.33,
+        "speed_std": 0.3394
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 2.455,
+        "speed": 8.86,
+        "density_min": 2.37,
+        "density_max": 2.54,
+        "speed_std": 0.1556
+      },
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 1.2,
+        "speed": 8.705,
+        "density_min": 1.17,
+        "density_max": 1.23,
+        "speed_std": 0.2616
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 1.005,
+        "speed": 8.855,
+        "density_min": 0.94,
+        "density_max": 1.07,
+        "speed_std": 0.799
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.725,
+        "speed": 8.385,
+        "density_min": 1.7,
+        "density_max": 1.75,
+        "speed_std": 0.1768
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.64,
+        "speed": 8.82,
+        "density_min": 1.59,
+        "density_max": 1.69,
+        "speed_std": 0.3818
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 5.765,
+        "speed": 2.7,
+        "density_min": 5.51,
+        "density_max": 6.01,
+        "speed_std": 0.0877
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 5.191,
+        "speed": 2.772,
+        "density_min": 4.97,
+        "density_max": 5.48,
+        "speed_std": 0.0661
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 4.179,
+        "speed": 2.678,
+        "density_min": 3.94,
+        "density_max": 4.46,
+        "speed_std": 0.0758
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 7.783,
+        "speed": 2.725,
+        "density_min": 7.35,
+        "density_max": 8.06,
+        "speed_std": 0.0709
+      },
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 0.888,
+        "speed": 12.442,
+        "density_min": 0.87,
+        "density_max": 0.93,
+        "speed_std": 0.2628
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 0.683,
+        "speed": 13.011,
+        "density_min": 0.66,
+        "density_max": 0.71,
+        "speed_std": 0.3035
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.111,
+        "speed": 13.01,
+        "density_min": 1.06,
+        "density_max": 1.15,
+        "speed_std": 0.378
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.108,
+        "speed": 12.859,
+        "density_min": 1.03,
+        "density_max": 1.15,
+        "speed_std": 0.2727
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 28800,
+    "checkpoint_hhmm": "08:00",
+    "edge": "79633771#0",
+    "baseline": [
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 1.695,
+        "speed": 8.515,
+        "density_min": 1.68,
+        "density_max": 1.71,
+        "speed_std": 0.1061
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 1.66,
+        "speed": 8.695,
+        "density_min": 1.62,
+        "density_max": 1.7,
+        "speed_std": 0.3041
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 1.22,
+        "speed": 8.175,
+        "density_min": 1.21,
+        "density_max": 1.23,
+        "speed_std": 0.1061
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 2.12,
+        "speed": 8.665,
+        "density_min": 2.0,
+        "density_max": 2.24,
+        "speed_std": 0.3465
+      },
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 1.21,
+        "speed": 8.705,
+        "density_min": 1.17,
+        "density_max": 1.25,
+        "speed_std": 0.2616
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 1.005,
+        "speed": 8.855,
+        "density_min": 0.94,
+        "density_max": 1.07,
+        "speed_std": 0.799
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.6,
+        "speed": 8.34,
+        "density_min": 1.58,
+        "density_max": 1.62,
+        "speed_std": 0.1414
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.48,
+        "speed": 8.88,
+        "density_min": 1.47,
+        "density_max": 1.49,
+        "speed_std": 0.2687
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 5.52,
+        "speed": 2.621,
+        "density_min": 5.16,
+        "density_max": 5.92,
+        "speed_std": 0.1208
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 4.947,
+        "speed": 2.766,
+        "density_min": 4.64,
+        "density_max": 5.43,
+        "speed_std": 0.0796
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 4.194,
+        "speed": 2.576,
+        "density_min": 3.77,
+        "density_max": 4.6,
+        "speed_std": 0.1197
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 6.45,
+        "speed": 2.704,
+        "density_min": 6.05,
+        "density_max": 6.79,
+        "speed_std": 0.0721
+      },
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 0.94,
+        "speed": 12.214,
+        "density_min": 0.87,
+        "density_max": 1.0,
+        "speed_std": 0.4471
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 0.683,
+        "speed": 13.012,
+        "density_min": 0.66,
+        "density_max": 0.71,
+        "speed_std": 0.3041
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.026,
+        "speed": 13.01,
+        "density_min": 0.98,
+        "density_max": 1.06,
+        "speed_std": 0.3647
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.025,
+        "speed": 12.8,
+        "density_min": 0.95,
+        "density_max": 1.07,
+        "speed_std": 0.3021
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 28800,
+    "checkpoint_hhmm": "08:00",
+    "edge": "79633771#2",
+    "baseline": [
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 1.675,
+        "speed": 8.625,
+        "density_min": 1.64,
+        "density_max": 1.71,
+        "speed_std": 0.2616
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 1.66,
+        "speed": 8.695,
+        "density_min": 1.62,
+        "density_max": 1.7,
+        "speed_std": 0.3041
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 1.19,
+        "speed": 8.39,
+        "density_min": 1.16,
+        "density_max": 1.22,
+        "speed_std": 0.3111
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 2.045,
+        "speed": 8.71,
+        "density_min": 2.01,
+        "density_max": 2.08,
+        "speed_std": 0.198
+      },
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 1.27,
+        "speed": 8.765,
+        "density_min": 1.25,
+        "density_max": 1.29,
+        "speed_std": 0.1768
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 1.005,
+        "speed": 8.855,
+        "density_min": 0.94,
+        "density_max": 1.07,
+        "speed_std": 0.799
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.585,
+        "speed": 8.42,
+        "density_min": 1.58,
+        "density_max": 1.59,
+        "speed_std": 0.0283
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.44,
+        "speed": 8.88,
+        "density_min": 1.41,
+        "density_max": 1.47,
+        "speed_std": 0.2687
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 28800.0,
+        "end": 29700.0,
+        "density": 1.925,
+        "speed": 7.512,
+        "density_min": 1.83,
+        "density_max": 2.07,
+        "speed_std": 0.2836
+      },
+      {
+        "begin": 29700.0,
+        "end": 30600.0,
+        "density": 1.513,
+        "speed": 8.89,
+        "density_min": 1.44,
+        "density_max": 1.63,
+        "speed_std": 0.251
+      },
+      {
+        "begin": 30600.0,
+        "end": 31500.0,
+        "density": 1.312,
+        "speed": 8.402,
+        "density_min": 1.17,
+        "density_max": 1.5,
+        "speed_std": 0.5037
+      },
+      {
+        "begin": 31500.0,
+        "end": 32400.0,
+        "density": 1.95,
+        "speed": 8.785,
+        "density_min": 1.86,
+        "density_max": 2.05,
+        "speed_std": 0.2395
+      },
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 1.317,
+        "speed": 8.924,
+        "density_min": 1.21,
+        "density_max": 1.42,
+        "speed_std": 0.1944
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 1.008,
+        "speed": 8.824,
+        "density_min": 0.94,
+        "density_max": 1.07,
+        "speed_std": 0.2831
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.52,
+        "speed": 8.792,
+        "density_min": 1.39,
+        "density_max": 1.64,
+        "speed_std": 0.4489
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.493,
+        "speed": 8.786,
+        "density_min": 1.41,
+        "density_max": 1.57,
+        "speed_std": 0.3184
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 32400,
+    "checkpoint_hhmm": "09:00",
+    "edge": "-2535039#2",
+    "baseline": [
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 1.195,
+        "speed": 8.37,
+        "density_min": 1.19,
+        "density_max": 1.2,
+        "speed_std": 0.0424
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 1.045,
+        "speed": 8.515,
+        "density_min": 1.01,
+        "density_max": 1.08,
+        "speed_std": 0.3748
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.6,
+        "speed": 9.05,
+        "density_min": 1.57,
+        "density_max": 1.63,
+        "speed_std": 0.2404
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.65,
+        "speed": 8.745,
+        "density_min": 1.62,
+        "density_max": 1.68,
+        "speed_std": 0.2192
+      },
+      {
+        "begin": 36000.0,
+        "end": 36900.0,
+        "density": 0.495,
+        "speed": 8.985,
+        "density_min": 0.47,
+        "density_max": 0.52,
+        "speed_std": 0.6435
+      },
+      {
+        "begin": 36900.0,
+        "end": 37800.0,
+        "density": 0.55,
+        "speed": 9.105,
+        "density_min": 0.51,
+        "density_max": 0.59,
+        "speed_std": 0.4313
+      },
+      {
+        "begin": 37800.0,
+        "end": 38700.0,
+        "density": 0.3,
+        "speed": 9.335,
+        "density_min": 0.25,
+        "density_max": 0.35,
+        "speed_std": 0.4172
+      },
+      {
+        "begin": 38700.0,
+        "end": 39600.0,
+        "density": 0.91,
+        "speed": 8.55,
+        "density_min": 0.9,
+        "density_max": 0.92,
+        "speed_std": 0.1697
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 0.82,
+        "speed": 12.194,
+        "density_min": 0.79,
+        "density_max": 0.85,
+        "speed_std": 0.3032
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 0.692,
+        "speed": 12.816,
+        "density_min": 0.68,
+        "density_max": 0.71,
+        "speed_std": 0.2147
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.115,
+        "speed": 12.965,
+        "density_min": 1.09,
+        "density_max": 1.16,
+        "speed_std": 0.2765
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.112,
+        "speed": 12.887,
+        "density_min": 1.03,
+        "density_max": 1.15,
+        "speed_std": 0.1652
+      },
+      {
+        "begin": 36000.0,
+        "end": 36900.0,
+        "density": 0.347,
+        "speed": 13.117,
+        "density_min": 0.32,
+        "density_max": 0.42,
+        "speed_std": 0.4844
+      },
+      {
+        "begin": 36900.0,
+        "end": 37800.0,
+        "density": 0.347,
+        "speed": 13.132,
+        "density_min": 0.32,
+        "density_max": 0.39,
+        "speed_std": 0.805
+      },
+      {
+        "begin": 37800.0,
+        "end": 38700.0,
+        "density": 0.239,
+        "speed": 13.471,
+        "density_min": 0.17,
+        "density_max": 0.28,
+        "speed_std": 0.6348
+      },
+      {
+        "begin": 38700.0,
+        "end": 39600.0,
+        "density": 0.621,
+        "speed": 12.592,
+        "density_min": 0.6,
+        "density_max": 0.65,
+        "speed_std": 0.3077
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 32400,
+    "checkpoint_hhmm": "09:00",
+    "edge": "79633771#0",
+    "baseline": [
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 1.195,
+        "speed": 8.37,
+        "density_min": 1.19,
+        "density_max": 1.2,
+        "speed_std": 0.0424
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 1.045,
+        "speed": 8.515,
+        "density_min": 1.01,
+        "density_max": 1.08,
+        "speed_std": 0.3748
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.465,
+        "speed": 9.09,
+        "density_min": 1.43,
+        "density_max": 1.5,
+        "speed_std": 0.3111
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.505,
+        "speed": 8.875,
+        "density_min": 1.49,
+        "density_max": 1.52,
+        "speed_std": 0.1202
+      },
+      {
+        "begin": 36000.0,
+        "end": 36900.0,
+        "density": 0.495,
+        "speed": 8.985,
+        "density_min": 0.47,
+        "density_max": 0.52,
+        "speed_std": 0.6435
+      },
+      {
+        "begin": 36900.0,
+        "end": 37800.0,
+        "density": 0.38,
+        "speed": 8.71,
+        "density_min": 0.37,
+        "density_max": 0.39,
+        "speed_std": 0.2687
+      },
+      {
+        "begin": 37800.0,
+        "end": 38700.0,
+        "density": 0.24,
+        "speed": 9.28,
+        "density_min": 0.23,
+        "density_max": 0.25,
+        "speed_std": 0.3394
+      },
+      {
+        "begin": 38700.0,
+        "end": 39600.0,
+        "density": 0.92,
+        "speed": 8.49,
+        "density_min": 0.9,
+        "density_max": 0.94,
+        "speed_std": 0.2546
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 0.824,
+        "speed": 12.13,
+        "density_min": 0.8,
+        "density_max": 0.85,
+        "speed_std": 0.2506
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 0.692,
+        "speed": 12.816,
+        "density_min": 0.68,
+        "density_max": 0.71,
+        "speed_std": 0.2147
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.026,
+        "speed": 12.989,
+        "density_min": 1.01,
+        "density_max": 1.06,
+        "speed_std": 0.2276
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.027,
+        "speed": 12.875,
+        "density_min": 0.95,
+        "density_max": 1.05,
+        "speed_std": 0.1414
+      },
+      {
+        "begin": 36000.0,
+        "end": 36900.0,
+        "density": 0.347,
+        "speed": 13.116,
+        "density_min": 0.32,
+        "density_max": 0.42,
+        "speed_std": 0.4856
+      },
+      {
+        "begin": 36900.0,
+        "end": 37800.0,
+        "density": 0.256,
+        "speed": 13.072,
+        "density_min": 0.24,
+        "density_max": 0.27,
+        "speed_std": 0.6061
+      },
+      {
+        "begin": 37800.0,
+        "end": 38700.0,
+        "density": 0.164,
+        "speed": 13.569,
+        "density_min": 0.16,
+        "density_max": 0.17,
+        "speed_std": 0.2811
+      },
+      {
+        "begin": 38700.0,
+        "end": 39600.0,
+        "density": 0.619,
+        "speed": 12.587,
+        "density_min": 0.6,
+        "density_max": 0.65,
+        "speed_std": 0.3099
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 32400,
+    "checkpoint_hhmm": "09:00",
+    "edge": "79633771#2",
+    "baseline": [
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 1.195,
+        "speed": 8.37,
+        "density_min": 1.19,
+        "density_max": 1.2,
+        "speed_std": 0.0424
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 1.045,
+        "speed": 8.515,
+        "density_min": 1.01,
+        "density_max": 1.08,
+        "speed_std": 0.3748
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.465,
+        "speed": 9.09,
+        "density_min": 1.43,
+        "density_max": 1.5,
+        "speed_std": 0.3111
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.505,
+        "speed": 8.875,
+        "density_min": 1.49,
+        "density_max": 1.52,
+        "speed_std": 0.1202
+      },
+      {
+        "begin": 36000.0,
+        "end": 36900.0,
+        "density": 0.495,
+        "speed": 8.985,
+        "density_min": 0.47,
+        "density_max": 0.52,
+        "speed_std": 0.6435
+      },
+      {
+        "begin": 36900.0,
+        "end": 37800.0,
+        "density": 0.38,
+        "speed": 8.71,
+        "density_min": 0.37,
+        "density_max": 0.39,
+        "speed_std": 0.2687
+      },
+      {
+        "begin": 37800.0,
+        "end": 38700.0,
+        "density": 0.24,
+        "speed": 9.28,
+        "density_min": 0.23,
+        "density_max": 0.25,
+        "speed_std": 0.3394
+      },
+      {
+        "begin": 38700.0,
+        "end": 39600.0,
+        "density": 0.92,
+        "speed": 8.49,
+        "density_min": 0.9,
+        "density_max": 0.94,
+        "speed_std": 0.2546
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 32400.0,
+        "end": 33300.0,
+        "density": 1.123,
+        "speed": 8.907,
+        "density_min": 1.07,
+        "density_max": 1.18,
+        "speed_std": 0.3359
+      },
+      {
+        "begin": 33300.0,
+        "end": 34200.0,
+        "density": 1.026,
+        "speed": 8.689,
+        "density_min": 1.0,
+        "density_max": 1.08,
+        "speed_std": 0.2658
+      },
+      {
+        "begin": 34200.0,
+        "end": 35100.0,
+        "density": 1.507,
+        "speed": 8.861,
+        "density_min": 1.43,
+        "density_max": 1.65,
+        "speed_std": 0.382
+      },
+      {
+        "begin": 35100.0,
+        "end": 36000.0,
+        "density": 1.488,
+        "speed": 8.885,
+        "density_min": 1.39,
+        "density_max": 1.55,
+        "speed_std": 0.192
+      },
+      {
+        "begin": 36000.0,
+        "end": 36900.0,
+        "density": 0.525,
+        "speed": 8.72,
+        "density_min": 0.47,
+        "density_max": 0.62,
+        "speed_std": 0.471
+      },
+      {
+        "begin": 36900.0,
+        "end": 37800.0,
+        "density": 0.385,
+        "speed": 8.669,
+        "density_min": 0.35,
+        "density_max": 0.41,
+        "speed_std": 0.5245
+      },
+      {
+        "begin": 37800.0,
+        "end": 38700.0,
+        "density": 0.245,
+        "speed": 9.069,
+        "density_min": 0.23,
+        "density_max": 0.26,
+        "speed_std": 0.4947
+      },
+      {
+        "begin": 38700.0,
+        "end": 39600.0,
+        "density": 0.885,
+        "speed": 8.809,
+        "density_min": 0.83,
+        "density_max": 0.95,
+        "speed_std": 0.3779
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 57600,
+    "checkpoint_hhmm": "16:00",
+    "edge": "-2535039#2",
+    "baseline": [
+      {
+        "begin": 57600.0,
+        "end": 58500.0,
+        "density": 0.135,
+        "speed": 8.235,
+        "density_min": 0.13,
+        "density_max": 0.14,
+        "speed_std": 0.4172
+      },
+      {
+        "begin": 58500.0,
+        "end": 59400.0,
+        "density": 1.13,
+        "speed": 8.835,
+        "density_min": 1.13,
+        "density_max": 1.13,
+        "speed_std": 0.0212
+      },
+      {
+        "begin": 59400.0,
+        "end": 60300.0,
+        "density": 0.645,
+        "speed": 8.65,
+        "density_min": 0.61,
+        "density_max": 0.68,
+        "speed_std": 0.7354
+      },
+      {
+        "begin": 60300.0,
+        "end": 61200.0,
+        "density": 0.14,
+        "speed": 7.83,
+        "density_min": 0.13,
+        "density_max": 0.15,
+        "speed_std": 0.6647
+      },
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 1.46,
+        "speed": 8.875,
+        "density_min": 1.45,
+        "density_max": 1.47,
+        "speed_std": 0.4455
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 1.675,
+        "speed": 8.865,
+        "density_min": 1.59,
+        "density_max": 1.76,
+        "speed_std": 0.3182
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 1.525,
+        "speed": 8.755,
+        "density_min": 1.51,
+        "density_max": 1.54,
+        "speed_std": 0.1202
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 1.03,
+        "speed": 8.61,
+        "density_min": 1.02,
+        "density_max": 1.04,
+        "speed_std": 0.099
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 57600.0,
+        "end": 58500.0,
+        "density": 0.092,
+        "speed": 13.312,
+        "density_min": 0.08,
+        "density_max": 0.16,
+        "speed_std": 0.6775
+      },
+      {
+        "begin": 58500.0,
+        "end": 59400.0,
+        "density": 0.787,
+        "speed": 12.564,
+        "density_min": 0.7,
+        "density_max": 0.82,
+        "speed_std": 0.2392
+      },
+      {
+        "begin": 59400.0,
+        "end": 60300.0,
+        "density": 0.438,
+        "speed": 12.697,
+        "density_min": 0.42,
+        "density_max": 0.47,
+        "speed_std": 0.4097
+      },
+      {
+        "begin": 60300.0,
+        "end": 61200.0,
+        "density": 0.089,
+        "speed": 12.81,
+        "density_min": 0.08,
+        "density_max": 0.11,
+        "speed_std": 1.4107
+      },
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 4.66,
+        "speed": 2.742,
+        "density_min": 4.33,
+        "density_max": 4.99,
+        "speed_std": 0.1008
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 5.575,
+        "speed": 2.663,
+        "density_min": 5.13,
+        "density_max": 6.23,
+        "speed_std": 0.1125
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 4.949,
+        "speed": 2.737,
+        "density_min": 4.74,
+        "density_max": 5.23,
+        "speed_std": 0.0713
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 3.222,
+        "speed": 2.746,
+        "density_min": 3.07,
+        "density_max": 3.49,
+        "speed_std": 0.1122
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 57600,
+    "checkpoint_hhmm": "16:00",
+    "edge": "79633771#0",
+    "baseline": [
+      {
+        "begin": 57600.0,
+        "end": 58500.0,
+        "density": 0.135,
+        "speed": 8.235,
+        "density_min": 0.13,
+        "density_max": 0.14,
+        "speed_std": 0.4172
+      },
+      {
+        "begin": 58500.0,
+        "end": 59400.0,
+        "density": 1.145,
+        "speed": 8.755,
+        "density_min": 1.13,
+        "density_max": 1.16,
+        "speed_std": 0.1344
+      },
+      {
+        "begin": 59400.0,
+        "end": 60300.0,
+        "density": 0.645,
+        "speed": 8.65,
+        "density_min": 0.61,
+        "density_max": 0.68,
+        "speed_std": 0.7354
+      },
+      {
+        "begin": 60300.0,
+        "end": 61200.0,
+        "density": 0.14,
+        "speed": 7.825,
+        "density_min": 0.13,
+        "density_max": 0.15,
+        "speed_std": 0.6718
+      },
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 1.365,
+        "speed": 8.99,
+        "density_min": 1.31,
+        "density_max": 1.42,
+        "speed_std": 0.5233
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 1.78,
+        "speed": 8.725,
+        "density_min": 1.75,
+        "density_max": 1.81,
+        "speed_std": 0.2051
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 1.54,
+        "speed": 8.66,
+        "density_min": 1.54,
+        "density_max": 1.54,
+        "speed_std": 0.0141
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 1.04,
+        "speed": 8.555,
+        "density_min": 1.04,
+        "density_max": 1.04,
+        "speed_std": 0.0212
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 57600.0,
+        "end": 58500.0,
+        "density": 0.092,
+        "speed": 13.312,
+        "density_min": 0.08,
+        "density_max": 0.16,
+        "speed_std": 0.6775
+      },
+      {
+        "begin": 58500.0,
+        "end": 59400.0,
+        "density": 0.787,
+        "speed": 12.564,
+        "density_min": 0.7,
+        "density_max": 0.82,
+        "speed_std": 0.2392
+      },
+      {
+        "begin": 59400.0,
+        "end": 60300.0,
+        "density": 0.438,
+        "speed": 12.697,
+        "density_min": 0.42,
+        "density_max": 0.47,
+        "speed_std": 0.4097
+      },
+      {
+        "begin": 60300.0,
+        "end": 61200.0,
+        "density": 0.089,
+        "speed": 12.81,
+        "density_min": 0.08,
+        "density_max": 0.11,
+        "speed_std": 1.4107
+      },
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 4.593,
+        "speed": 2.673,
+        "density_min": 4.2,
+        "density_max": 4.83,
+        "speed_std": 0.1364
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 5.54,
+        "speed": 2.647,
+        "density_min": 5.24,
+        "density_max": 5.94,
+        "speed_std": 0.1084
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 5.292,
+        "speed": 2.69,
+        "density_min": 4.85,
+        "density_max": 5.61,
+        "speed_std": 0.0793
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 3.219,
+        "speed": 2.679,
+        "density_min": 2.81,
+        "density_max": 3.69,
+        "speed_std": 0.1875
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 57600,
+    "checkpoint_hhmm": "16:00",
+    "edge": "79633771#2",
+    "baseline": [
+      {
+        "begin": 57600.0,
+        "end": 58500.0,
+        "density": 0.135,
+        "speed": 8.235,
+        "density_min": 0.13,
+        "density_max": 0.14,
+        "speed_std": 0.4172
+      },
+      {
+        "begin": 58500.0,
+        "end": 59400.0,
+        "density": 1.145,
+        "speed": 8.75,
+        "density_min": 1.13,
+        "density_max": 1.16,
+        "speed_std": 0.1414
+      },
+      {
+        "begin": 59400.0,
+        "end": 60300.0,
+        "density": 0.645,
+        "speed": 8.65,
+        "density_min": 0.61,
+        "density_max": 0.68,
+        "speed_std": 0.7354
+      },
+      {
+        "begin": 60300.0,
+        "end": 61200.0,
+        "density": 0.14,
+        "speed": 7.83,
+        "density_min": 0.13,
+        "density_max": 0.15,
+        "speed_std": 0.6647
+      },
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 1.365,
+        "speed": 8.99,
+        "density_min": 1.31,
+        "density_max": 1.42,
+        "speed_std": 0.5233
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 1.77,
+        "speed": 8.78,
+        "density_min": 1.73,
+        "density_max": 1.81,
+        "speed_std": 0.2828
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 1.54,
+        "speed": 8.66,
+        "density_min": 1.54,
+        "density_max": 1.54,
+        "speed_std": 0.0141
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 1.04,
+        "speed": 8.555,
+        "density_min": 1.04,
+        "density_max": 1.04,
+        "speed_std": 0.0212
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 57600.0,
+        "end": 58500.0,
+        "density": 0.137,
+        "speed": 8.763,
+        "density_min": 0.11,
+        "density_max": 0.23,
+        "speed_std": 0.6805
+      },
+      {
+        "begin": 58500.0,
+        "end": 59400.0,
+        "density": 1.115,
+        "speed": 8.885,
+        "density_min": 0.96,
+        "density_max": 1.17,
+        "speed_std": 0.2609
+      },
+      {
+        "begin": 59400.0,
+        "end": 60300.0,
+        "density": 0.627,
+        "speed": 8.869,
+        "density_min": 0.6,
+        "density_max": 0.68,
+        "speed_std": 0.3639
+      },
+      {
+        "begin": 60300.0,
+        "end": 61200.0,
+        "density": 0.131,
+        "speed": 8.626,
+        "density_min": 0.11,
+        "density_max": 0.17,
+        "speed_std": 1.2848
+      },
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 1.389,
+        "speed": 8.818,
+        "density_min": 1.31,
+        "density_max": 1.46,
+        "speed_std": 0.3256
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 1.957,
+        "speed": 7.431,
+        "density_min": 1.89,
+        "density_max": 2.04,
+        "speed_std": 0.1807
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 1.627,
+        "speed": 8.814,
+        "density_min": 1.51,
+        "density_max": 1.72,
+        "speed_std": 0.2346
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 0.921,
+        "speed": 8.851,
+        "density_min": 0.82,
+        "density_max": 1.09,
+        "speed_std": 0.4032
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 61200,
+    "checkpoint_hhmm": "17:00",
+    "edge": "-2535039#2",
+    "baseline": [
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 1.44,
+        "speed": 8.5,
+        "density_min": 1.39,
+        "density_max": 1.49,
+        "speed_std": 0.4243
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 1.59,
+        "speed": 8.725,
+        "density_min": 1.53,
+        "density_max": 1.65,
+        "speed_std": 0.0495
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 1.61,
+        "speed": 8.62,
+        "density_min": 1.56,
+        "density_max": 1.66,
+        "speed_std": 0.1273
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 0.995,
+        "speed": 8.955,
+        "density_min": 0.93,
+        "density_max": 1.06,
+        "speed_std": 0.8415
+      },
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 1.855,
+        "speed": 8.985,
+        "density_min": 1.81,
+        "density_max": 1.9,
+        "speed_std": 0.3182
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 1.24,
+        "speed": 8.965,
+        "density_min": 1.21,
+        "density_max": 1.27,
+        "speed_std": 0.3606
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 1.145,
+        "speed": 8.75,
+        "density_min": 1.13,
+        "density_max": 1.16,
+        "speed_std": 0.1414
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 1.285,
+        "speed": 8.66,
+        "density_min": 1.26,
+        "density_max": 1.31,
+        "speed_std": 0.2687
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 4.383,
+        "speed": 2.691,
+        "density_min": 3.97,
+        "density_max": 4.67,
+        "speed_std": 0.0997
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 5.452,
+        "speed": 2.69,
+        "density_min": 5.09,
+        "density_max": 5.66,
+        "speed_std": 0.0537
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 4.939,
+        "speed": 2.749,
+        "density_min": 4.46,
+        "density_max": 5.36,
+        "speed_std": 0.104
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 3.224,
+        "speed": 2.753,
+        "density_min": 2.99,
+        "density_max": 3.64,
+        "speed_std": 0.1829
+      },
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 6.164,
+        "speed": 2.708,
+        "density_min": 5.82,
+        "density_max": 6.48,
+        "speed_std": 0.1027
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 4.08,
+        "speed": 2.736,
+        "density_min": 3.88,
+        "density_max": 4.33,
+        "speed_std": 0.089
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 3.425,
+        "speed": 2.767,
+        "density_min": 3.18,
+        "density_max": 3.59,
+        "speed_std": 0.107
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 4.2,
+        "speed": 2.763,
+        "density_min": 3.97,
+        "density_max": 4.46,
+        "speed_std": 0.0842
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 61200,
+    "checkpoint_hhmm": "17:00",
+    "edge": "79633771#0",
+    "baseline": [
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 1.45,
+        "speed": 8.425,
+        "density_min": 1.4,
+        "density_max": 1.5,
+        "speed_std": 0.4172
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 1.655,
+        "speed": 8.4,
+        "density_min": 1.53,
+        "density_max": 1.78,
+        "speed_std": 0.4101
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 1.625,
+        "speed": 8.55,
+        "density_min": 1.58,
+        "density_max": 1.67,
+        "speed_std": 0.1273
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 1.04,
+        "speed": 8.635,
+        "density_min": 0.93,
+        "density_max": 1.15,
+        "speed_std": 1.2799
+      },
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 1.84,
+        "speed": 9.05,
+        "density_min": 1.81,
+        "density_max": 1.87,
+        "speed_std": 0.2263
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 1.245,
+        "speed": 8.965,
+        "density_min": 1.21,
+        "density_max": 1.28,
+        "speed_std": 0.3606
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 1.08,
+        "speed": 8.785,
+        "density_min": 1.0,
+        "density_max": 1.16,
+        "speed_std": 0.1909
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 1.35,
+        "speed": 8.635,
+        "density_min": 1.31,
+        "density_max": 1.39,
+        "speed_std": 0.2333
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 4.313,
+        "speed": 2.582,
+        "density_min": 3.89,
+        "density_max": 4.59,
+        "speed_std": 0.1269
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 5.636,
+        "speed": 2.646,
+        "density_min": 5.18,
+        "density_max": 6.3,
+        "speed_std": 0.0986
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 5.184,
+        "speed": 2.708,
+        "density_min": 4.46,
+        "density_max": 5.52,
+        "speed_std": 0.1286
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 3.244,
+        "speed": 2.719,
+        "density_min": 2.94,
+        "density_max": 3.79,
+        "speed_std": 0.2055
+      },
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 6.159,
+        "speed": 2.668,
+        "density_min": 5.58,
+        "density_max": 6.66,
+        "speed_std": 0.1215
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 4.231,
+        "speed": 2.719,
+        "density_min": 3.94,
+        "density_max": 4.59,
+        "speed_std": 0.0913
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 3.262,
+        "speed": 2.761,
+        "density_min": 3.07,
+        "density_max": 3.41,
+        "speed_std": 0.1088
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 4.01,
+        "speed": 2.748,
+        "density_min": 3.87,
+        "density_max": 4.14,
+        "speed_std": 0.0987
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 61200,
+    "checkpoint_hhmm": "17:00",
+    "edge": "79633771#2",
+    "baseline": [
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 1.45,
+        "speed": 8.425,
+        "density_min": 1.4,
+        "density_max": 1.5,
+        "speed_std": 0.4172
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 1.615,
+        "speed": 8.6,
+        "density_min": 1.53,
+        "density_max": 1.7,
+        "speed_std": 0.1273
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 1.625,
+        "speed": 8.55,
+        "density_min": 1.58,
+        "density_max": 1.67,
+        "speed_std": 0.1273
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 1.005,
+        "speed": 8.905,
+        "density_min": 0.93,
+        "density_max": 1.08,
+        "speed_std": 0.9122
+      },
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 1.855,
+        "speed": 8.99,
+        "density_min": 1.81,
+        "density_max": 1.9,
+        "speed_std": 0.3111
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 1.245,
+        "speed": 8.965,
+        "density_min": 1.21,
+        "density_max": 1.28,
+        "speed_std": 0.3606
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 1.08,
+        "speed": 8.785,
+        "density_min": 1.0,
+        "density_max": 1.16,
+        "speed_std": 0.1909
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 1.35,
+        "speed": 8.635,
+        "density_min": 1.31,
+        "density_max": 1.39,
+        "speed_std": 0.2333
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 61200.0,
+        "end": 62100.0,
+        "density": 1.285,
+        "speed": 8.656,
+        "density_min": 1.21,
+        "density_max": 1.36,
+        "speed_std": 0.3248
+      },
+      {
+        "begin": 62100.0,
+        "end": 63000.0,
+        "density": 1.959,
+        "speed": 7.434,
+        "density_min": 1.89,
+        "density_max": 2.01,
+        "speed_std": 0.1475
+      },
+      {
+        "begin": 63000.0,
+        "end": 63900.0,
+        "density": 1.622,
+        "speed": 8.844,
+        "density_min": 1.42,
+        "density_max": 1.69,
+        "speed_std": 0.3212
+      },
+      {
+        "begin": 63900.0,
+        "end": 64800.0,
+        "density": 0.979,
+        "speed": 8.872,
+        "density_min": 0.84,
+        "density_max": 1.12,
+        "speed_std": 0.5361
+      },
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 1.826,
+        "speed": 8.781,
+        "density_min": 1.66,
+        "density_max": 2.0,
+        "speed_std": 0.2994
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 1.367,
+        "speed": 8.777,
+        "density_min": 1.28,
+        "density_max": 1.53,
+        "speed_std": 0.285
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 1.002,
+        "speed": 8.876,
+        "density_min": 0.95,
+        "density_max": 1.04,
+        "speed_std": 0.2945
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 1.252,
+        "speed": 8.886,
+        "density_min": 1.2,
+        "density_max": 1.29,
+        "speed_std": 0.2408
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 64800,
+    "checkpoint_hhmm": "18:00",
+    "edge": "-2535039#2",
+    "baseline": [
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 1.865,
+        "speed": 8.355,
+        "density_min": 1.85,
+        "density_max": 1.88,
+        "speed_std": 0.0919
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 1.25,
+        "speed": 8.875,
+        "density_min": 1.23,
+        "density_max": 1.27,
+        "speed_std": 0.1909
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 1.145,
+        "speed": 8.74,
+        "density_min": 1.13,
+        "density_max": 1.16,
+        "speed_std": 0.1556
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 1.21,
+        "speed": 9.17,
+        "density_min": 1.21,
+        "density_max": 1.21,
+        "speed_std": 0.0
+      },
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.89,
+        "speed": 8.74,
+        "density_min": 0.89,
+        "density_max": 0.89,
+        "speed_std": 0.0141
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.965,
+        "speed": 8.695,
+        "density_min": 0.91,
+        "density_max": 1.02,
+        "speed_std": 0.0071
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 1.065,
+        "speed": 8.81,
+        "density_min": 1.0,
+        "density_max": 1.13,
+        "speed_std": 0.1131
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.615,
+        "speed": 9.055,
+        "density_min": 0.58,
+        "density_max": 0.65,
+        "speed_std": 0.7707
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 5.684,
+        "speed": 2.728,
+        "density_min": 5.45,
+        "density_max": 6.06,
+        "speed_std": 0.0984
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 3.99,
+        "speed": 2.802,
+        "density_min": 3.79,
+        "density_max": 4.2,
+        "speed_std": 0.0802
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 3.42,
+        "speed": 2.768,
+        "density_min": 3.05,
+        "density_max": 3.69,
+        "speed_std": 0.11
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 4.189,
+        "speed": 2.768,
+        "density_min": 4.04,
+        "density_max": 4.43,
+        "speed_std": 0.0873
+      },
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.622,
+        "speed": 12.671,
+        "density_min": 0.58,
+        "density_max": 0.65,
+        "speed_std": 0.358
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.684,
+        "speed": 12.699,
+        "density_min": 0.62,
+        "density_max": 0.73,
+        "speed_std": 0.2451
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 0.688,
+        "speed": 13.184,
+        "density_min": 0.65,
+        "density_max": 0.74,
+        "speed_std": 0.4082
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.418,
+        "speed": 13.38,
+        "density_min": 0.39,
+        "density_max": 0.46,
+        "speed_std": 0.6622
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 64800,
+    "checkpoint_hhmm": "18:00",
+    "edge": "79633771#0",
+    "baseline": [
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 1.845,
+        "speed": 8.43,
+        "density_min": 1.84,
+        "density_max": 1.85,
+        "speed_std": 0.0141
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 1.25,
+        "speed": 8.875,
+        "density_min": 1.23,
+        "density_max": 1.27,
+        "speed_std": 0.1909
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 1.145,
+        "speed": 8.74,
+        "density_min": 1.13,
+        "density_max": 1.16,
+        "speed_std": 0.1556
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 1.21,
+        "speed": 9.17,
+        "density_min": 1.21,
+        "density_max": 1.21,
+        "speed_std": 0.0
+      },
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.765,
+        "speed": 8.71,
+        "density_min": 0.76,
+        "density_max": 0.77,
+        "speed_std": 0.1273
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.825,
+        "speed": 8.75,
+        "density_min": 0.75,
+        "density_max": 0.9,
+        "speed_std": 0.1273
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 1.075,
+        "speed": 8.8,
+        "density_min": 1.0,
+        "density_max": 1.15,
+        "speed_std": 0.1273
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.615,
+        "speed": 9.05,
+        "density_min": 0.58,
+        "density_max": 0.65,
+        "speed_std": 0.7637
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 5.464,
+        "speed": 2.722,
+        "density_min": 4.86,
+        "density_max": 5.96,
+        "speed_std": 0.1043
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 4.264,
+        "speed": 2.774,
+        "density_min": 3.79,
+        "density_max": 5.01,
+        "speed_std": 0.0922
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 3.228,
+        "speed": 2.757,
+        "density_min": 3.06,
+        "density_max": 3.47,
+        "speed_std": 0.1169
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 4.048,
+        "speed": 2.756,
+        "density_min": 3.85,
+        "density_max": 4.34,
+        "speed_std": 0.1007
+      },
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.62,
+        "speed": 12.519,
+        "density_min": 0.58,
+        "density_max": 0.67,
+        "speed_std": 0.5833
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.588,
+        "speed": 12.644,
+        "density_min": 0.52,
+        "density_max": 0.63,
+        "speed_std": 0.2153
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 0.703,
+        "speed": 13.103,
+        "density_min": 0.65,
+        "density_max": 0.81,
+        "speed_std": 0.4866
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.419,
+        "speed": 13.353,
+        "density_min": 0.39,
+        "density_max": 0.47,
+        "speed_std": 0.7246
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 64800,
+    "checkpoint_hhmm": "18:00",
+    "edge": "79633771#2",
+    "baseline": [
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 1.865,
+        "speed": 8.355,
+        "density_min": 1.85,
+        "density_max": 1.88,
+        "speed_std": 0.0919
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 1.25,
+        "speed": 8.875,
+        "density_min": 1.23,
+        "density_max": 1.27,
+        "speed_std": 0.1909
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 1.145,
+        "speed": 8.74,
+        "density_min": 1.13,
+        "density_max": 1.16,
+        "speed_std": 0.1556
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 1.21,
+        "speed": 9.17,
+        "density_min": 1.21,
+        "density_max": 1.21,
+        "speed_std": 0.0
+      },
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.765,
+        "speed": 8.71,
+        "density_min": 0.76,
+        "density_max": 0.77,
+        "speed_std": 0.1273
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.825,
+        "speed": 8.75,
+        "density_min": 0.75,
+        "density_max": 0.9,
+        "speed_std": 0.1273
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 1.075,
+        "speed": 8.8,
+        "density_min": 1.0,
+        "density_max": 1.15,
+        "speed_std": 0.1273
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.615,
+        "speed": 9.05,
+        "density_min": 0.58,
+        "density_max": 0.65,
+        "speed_std": 0.7637
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 64800.0,
+        "end": 65700.0,
+        "density": 1.627,
+        "speed": 8.848,
+        "density_min": 1.49,
+        "density_max": 1.83,
+        "speed_std": 0.2956
+      },
+      {
+        "begin": 65700.0,
+        "end": 66600.0,
+        "density": 1.376,
+        "speed": 8.94,
+        "density_min": 1.18,
+        "density_max": 1.52,
+        "speed_std": 0.2528
+      },
+      {
+        "begin": 66600.0,
+        "end": 67500.0,
+        "density": 1.001,
+        "speed": 8.889,
+        "density_min": 0.95,
+        "density_max": 1.08,
+        "speed_std": 0.3528
+      },
+      {
+        "begin": 67500.0,
+        "end": 68400.0,
+        "density": 1.244,
+        "speed": 8.937,
+        "density_min": 1.2,
+        "density_max": 1.32,
+        "speed_std": 0.251
+      },
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.887,
+        "speed": 8.784,
+        "density_min": 0.83,
+        "density_max": 0.95,
+        "speed_std": 0.3366
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.82,
+        "speed": 8.915,
+        "density_min": 0.71,
+        "density_max": 0.9,
+        "speed_std": 0.2665
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 1.034,
+        "speed": 9.069,
+        "density_min": 0.95,
+        "density_max": 1.2,
+        "speed_std": 0.3909
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.634,
+        "speed": 8.797,
+        "density_min": 0.58,
+        "density_max": 0.72,
+        "speed_std": 0.574
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 68400,
+    "checkpoint_hhmm": "19:00",
+    "edge": "-2535039#2",
+    "baseline": [
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.79,
+        "speed": 8.445,
+        "density_min": 0.75,
+        "density_max": 0.83,
+        "speed_std": 0.601
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.965,
+        "speed": 8.64,
+        "density_min": 0.96,
+        "density_max": 0.97,
+        "speed_std": 0.7071
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 1.11,
+        "speed": 8.525,
+        "density_min": 1.03,
+        "density_max": 1.19,
+        "speed_std": 0.2051
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.6,
+        "speed": 9.245,
+        "density_min": 0.58,
+        "density_max": 0.62,
+        "speed_std": 0.4313
+      },
+      {
+        "begin": 72000.0,
+        "end": 72900.0,
+        "density": 0.255,
+        "speed": 8.675,
+        "density_min": 0.25,
+        "density_max": 0.26,
+        "speed_std": 0.1626
+      },
+      {
+        "begin": 72900.0,
+        "end": 73800.0,
+        "density": 0.625,
+        "speed": 8.935,
+        "density_min": 0.6,
+        "density_max": 0.65,
+        "speed_std": 0.5445
+      },
+      {
+        "begin": 73800.0,
+        "end": 74700.0,
+        "density": 0.61,
+        "speed": 9.055,
+        "density_min": 0.6,
+        "density_max": 0.62,
+        "speed_std": 0.2192
+      },
+      {
+        "begin": 74700.0,
+        "end": 75600.0,
+        "density": 1.14,
+        "speed": 8.795,
+        "density_min": 1.12,
+        "density_max": 1.16,
+        "speed_std": 0.2051
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.518,
+        "speed": 12.9,
+        "density_min": 0.5,
+        "density_max": 0.55,
+        "speed_std": 0.357
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.684,
+        "speed": 12.467,
+        "density_min": 0.63,
+        "density_max": 0.72,
+        "speed_std": 0.2908
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 0.699,
+        "speed": 13.255,
+        "density_min": 0.64,
+        "density_max": 0.78,
+        "speed_std": 0.4767
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.411,
+        "speed": 13.529,
+        "density_min": 0.4,
+        "density_max": 0.43,
+        "speed_std": 0.3877
+      },
+      {
+        "begin": 72000.0,
+        "end": 72900.0,
+        "density": 0.183,
+        "speed": 12.158,
+        "density_min": 0.18,
+        "density_max": 0.19,
+        "speed_std": 0.2458
+      },
+      {
+        "begin": 72900.0,
+        "end": 73800.0,
+        "density": 0.435,
+        "speed": 12.8,
+        "density_min": 0.42,
+        "density_max": 0.45,
+        "speed_std": 0.2995
+      },
+      {
+        "begin": 73800.0,
+        "end": 74700.0,
+        "density": 0.41,
+        "speed": 13.594,
+        "density_min": 0.39,
+        "density_max": 0.43,
+        "speed_std": 0.3792
+      },
+      {
+        "begin": 74700.0,
+        "end": 75600.0,
+        "density": 0.802,
+        "speed": 12.487,
+        "density_min": 0.78,
+        "density_max": 0.83,
+        "speed_std": 0.2647
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 68400,
+    "checkpoint_hhmm": "19:00",
+    "edge": "79633771#0",
+    "baseline": [
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.67,
+        "speed": 8.315,
+        "density_min": 0.64,
+        "density_max": 0.7,
+        "speed_std": 0.5869
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.835,
+        "speed": 8.6,
+        "density_min": 0.83,
+        "density_max": 0.84,
+        "speed_std": 0.8627
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 1.11,
+        "speed": 8.525,
+        "density_min": 1.03,
+        "density_max": 1.19,
+        "speed_std": 0.2051
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.6,
+        "speed": 9.24,
+        "density_min": 0.58,
+        "density_max": 0.62,
+        "speed_std": 0.4243
+      },
+      {
+        "begin": 72000.0,
+        "end": 72900.0,
+        "density": 0.255,
+        "speed": 8.675,
+        "density_min": 0.25,
+        "density_max": 0.26,
+        "speed_std": 0.1626
+      },
+      {
+        "begin": 72900.0,
+        "end": 73800.0,
+        "density": 0.625,
+        "speed": 8.935,
+        "density_min": 0.6,
+        "density_max": 0.65,
+        "speed_std": 0.5445
+      },
+      {
+        "begin": 73800.0,
+        "end": 74700.0,
+        "density": 0.49,
+        "speed": 9.09,
+        "density_min": 0.48,
+        "density_max": 0.5,
+        "speed_std": 0.2687
+      },
+      {
+        "begin": 74700.0,
+        "end": 75600.0,
+        "density": 1.145,
+        "speed": 8.74,
+        "density_min": 1.13,
+        "density_max": 1.16,
+        "speed_std": 0.1273
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.436,
+        "speed": 12.765,
+        "density_min": 0.42,
+        "density_max": 0.47,
+        "speed_std": 0.3894
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.58,
+        "speed": 12.33,
+        "density_min": 0.53,
+        "density_max": 0.63,
+        "speed_std": 0.3776
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 0.722,
+        "speed": 13.199,
+        "density_min": 0.64,
+        "density_max": 0.8,
+        "speed_std": 0.4936
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.413,
+        "speed": 13.478,
+        "density_min": 0.4,
+        "density_max": 0.44,
+        "speed_std": 0.4622
+      },
+      {
+        "begin": 72000.0,
+        "end": 72900.0,
+        "density": 0.183,
+        "speed": 12.159,
+        "density_min": 0.18,
+        "density_max": 0.19,
+        "speed_std": 0.245
+      },
+      {
+        "begin": 72900.0,
+        "end": 73800.0,
+        "density": 0.425,
+        "speed": 12.833,
+        "density_min": 0.34,
+        "density_max": 0.45,
+        "speed_std": 0.2993
+      },
+      {
+        "begin": 73800.0,
+        "end": 74700.0,
+        "density": 0.334,
+        "speed": 13.615,
+        "density_min": 0.31,
+        "density_max": 0.44,
+        "speed_std": 0.4624
+      },
+      {
+        "begin": 74700.0,
+        "end": 75600.0,
+        "density": 0.807,
+        "speed": 12.405,
+        "density_min": 0.79,
+        "density_max": 0.83,
+        "speed_std": 0.2054
+      }
+    ]
+  },
+  {
+    "checkpoint_s": 68400,
+    "checkpoint_hhmm": "19:00",
+    "edge": "79633771#2",
+    "baseline": [
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.67,
+        "speed": 8.315,
+        "density_min": 0.64,
+        "density_max": 0.7,
+        "speed_std": 0.5869
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.835,
+        "speed": 8.6,
+        "density_min": 0.83,
+        "density_max": 0.84,
+        "speed_std": 0.8627
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 1.11,
+        "speed": 8.525,
+        "density_min": 1.03,
+        "density_max": 1.19,
+        "speed_std": 0.2051
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.6,
+        "speed": 9.245,
+        "density_min": 0.58,
+        "density_max": 0.62,
+        "speed_std": 0.4313
+      },
+      {
+        "begin": 72000.0,
+        "end": 72900.0,
+        "density": 0.255,
+        "speed": 8.675,
+        "density_min": 0.25,
+        "density_max": 0.26,
+        "speed_std": 0.1626
+      },
+      {
+        "begin": 72900.0,
+        "end": 73800.0,
+        "density": 0.625,
+        "speed": 8.935,
+        "density_min": 0.6,
+        "density_max": 0.65,
+        "speed_std": 0.5445
+      },
+      {
+        "begin": 73800.0,
+        "end": 74700.0,
+        "density": 0.49,
+        "speed": 9.09,
+        "density_min": 0.48,
+        "density_max": 0.5,
+        "speed_std": 0.2687
+      },
+      {
+        "begin": 74700.0,
+        "end": 75600.0,
+        "density": 1.145,
+        "speed": 8.74,
+        "density_min": 1.13,
+        "density_max": 1.16,
+        "speed_std": 0.1273
+      }
+    ],
+    "bottleneck": [
+      {
+        "begin": 68400.0,
+        "end": 69300.0,
+        "density": 0.632,
+        "speed": 8.802,
+        "density_min": 0.6,
+        "density_max": 0.7,
+        "speed_std": 0.3999
+      },
+      {
+        "begin": 69300.0,
+        "end": 70200.0,
+        "density": 0.818,
+        "speed": 8.662,
+        "density_min": 0.76,
+        "density_max": 0.88,
+        "speed_std": 0.3556
+      },
+      {
+        "begin": 70200.0,
+        "end": 71100.0,
+        "density": 1.05,
+        "speed": 9.121,
+        "density_min": 0.93,
+        "density_max": 1.15,
+        "speed_std": 0.4327
+      },
+      {
+        "begin": 71100.0,
+        "end": 72000.0,
+        "density": 0.62,
+        "speed": 8.992,
+        "density_min": 0.58,
+        "density_max": 0.68,
+        "speed_std": 0.3848
+      },
+      {
+        "begin": 72000.0,
+        "end": 72900.0,
+        "density": 0.248,
+        "speed": 8.956,
+        "density_min": 0.22,
+        "density_max": 0.27,
+        "speed_std": 0.5239
+      },
+      {
+        "begin": 72900.0,
+        "end": 73800.0,
+        "density": 0.617,
+        "speed": 8.842,
+        "density_min": 0.49,
+        "density_max": 0.67,
+        "speed_std": 0.3238
+      },
+      {
+        "begin": 73800.0,
+        "end": 74700.0,
+        "density": 0.507,
+        "speed": 9.039,
+        "density_min": 0.47,
+        "density_max": 0.67,
+        "speed_std": 0.3893
+      },
+      {
+        "begin": 74700.0,
+        "end": 75600.0,
+        "density": 1.174,
+        "speed": 8.531,
+        "density_min": 1.13,
+        "density_max": 1.22,
+        "speed_std": 0.1853
+      }
+    ]
+  }
+]

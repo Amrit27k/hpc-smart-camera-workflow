@@ -1,0 +1,31 @@
+{
+  "checkpoint_s": 36000,
+  "end_s": 43200,
+  "interval_s": 900,
+  "n_reps": 2,
+  "failed_seeds": [],
+  "report_edges": [
+    "-2535039#2",
+    "429206409",
+    "236455763#1",
+    "79633771#0",
+    "79633771#2",
+    "134063971",
+    "1361717374#2",
+    "926028935#0",
+    "11018592",
+    "452105747"
+  ],
+  "citywide": {
+    "+1h": {
+      "speed_mean_weighted_ms": 9.739,
+      "density_mean_vkl": 0.248,
+      "n_edges": 352
+    },
+    "+2h": {
+      "speed_mean_weighted_ms": 10.76,
+      "density_mean_vkl": 0.171,
+      "n_edges": 291
+    }
+  }
+}
